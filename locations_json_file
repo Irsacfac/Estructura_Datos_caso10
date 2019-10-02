@@ -113,7 +113,7 @@
 	  				{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 200, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -126,7 +126,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 200, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -139,7 +139,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 100, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -162,7 +162,7 @@
 	  				{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 200, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -175,7 +175,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 300, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -188,7 +188,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 100, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -212,7 +212,7 @@
 	  				{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 300, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -225,7 +225,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 250, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -238,7 +238,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 250, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -261,7 +261,7 @@
 	  				{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 250, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -274,7 +274,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 200, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -287,7 +287,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 50, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -310,7 +310,7 @@
 	  				{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 200, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -323,7 +323,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 500, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -336,7 +336,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 100, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -359,7 +359,7 @@
 	  				{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 250, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -372,7 +372,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 350, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -385,7 +385,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 100, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -408,7 +408,7 @@
 	  				{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 150, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -421,7 +421,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 150, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -434,7 +434,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 300, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -459,7 +459,7 @@
 	  				{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 300, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -472,7 +472,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 250, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -485,7 +485,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 150, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -510,7 +510,7 @@
 	  				{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 150, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -523,7 +523,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 150, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -536,7 +536,7 @@
 	     		  	{
 					  
 					  "Name" : "",
-		     		  "Consumption" : , 
+		     		  "Consumption" : 200, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -562,7 +562,7 @@
 					  "Name" : "",
 		     		  "Consumption" : , 
 		      	    	  
-		     		  "Neighborhhoods" :
+		     		  "Neighborhhoods" 300:
 		     		  	[
 
 		     		  	]
@@ -575,7 +575,7 @@
 					  "Name" : "",
 		     		  "Consumption" : , 
 		      	    	  
-		     		  "Neighborhhoods" :
+		     		  "Neighborhhoods" 200:
 		     		  	[
 
 		     		  	]
@@ -588,7 +588,7 @@
 					  "Name" : "",
 		     		  "Consumption" : , 
 		      	    	  
-		     		  "Neighborhhoods" :
+		     		  "Neighborhhoods" 200:
 		     		  	[
 
 		     		  	]
@@ -612,7 +612,7 @@
 					  "Name" : "",
 		     		  "Consumption" : , 
 		      	    	  
-		     		  "Neighborhhoods" :
+		     		  "Neighborhhoods" 150:
 		     		  	[
 
 		     		  	]
@@ -626,7 +626,7 @@
 					  "Name" : "",
 		     		  "Consumption" : , 
 		      	    	  
-		     		  "Neighborhhoods" :
+		     		  "Neighborhhoods" 130:
 		     		  	[
 
 		     		  	]
@@ -639,7 +639,7 @@
 					  "Name" : "",
 		     		  "Consumption" : , 
 		      	    	  
-		     		  "Neighborhhoods" :
+		     		  "Neighborhhoods" 220:
 		     		  	[
 
 		     		  	]
@@ -662,7 +662,7 @@
 					  "Name" : "",
 		     		  "Consumption" : , 
 		      	    	  
-		     		  "Neighborhhoods" :
+		     		  "Neighborhhoods" 500:
 		     		  	[
 
 		     		  	]
