@@ -24,18 +24,18 @@
 
 		     		  		{
 		     		  			"Name" : "San Ignacio1",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Ignacio2",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Ignacio3",
-		     		  			"Consumption" : 100,
+		     		  			"Consumption" : 100
 		     		  		}
 
 		     		  	]
@@ -52,18 +52,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "Palmichal1",
-		     		  			"Consumption" : 70,
+		     		  			"Consumption" : 70
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Palmichal2",
-		     		  			"Consumption" : 70,
+		     		  			"Consumption" : 70
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Palmichal3",
-		     		  			"Consumption" : 60,
+		     		  			"Consumption" : 60
 		     		  		}
 
 		     		  	]
@@ -80,18 +80,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "Guaitil1",
-		     		  			"Consumption" : 30,
+		     		  			"Consumption" : 30
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Guaitil2",
-		     		  			"Consumption" : 30,
+		     		  			"Consumption" : 30
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Guaitil3",
-		     		  			"Consumption" : 40,
+		     		  			"Consumption" : 40
 		     		  		}
 
 		     		  	]
@@ -118,18 +118,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "Alajuelita1",
-		     		  			"Consumption" : 100,
+		     		  			"Consumption" : 100
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Alajuelita2",
-		     		  			"Consumption" : 150,
+		     		  			"Consumption" : 150
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Alajuelita3",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  		}
 
 		     		  	]
@@ -146,18 +146,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "San Josecito1",
-		     		  			"Consumption" : 60,
+		     		  			"Consumption" : 60
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Josecito2",
-		     		  			"Consumption" : 60,
+		     		  			"Consumption" : 60
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Josecito3",
-		     		  			"Consumption" : 80,
+		     		  			"Consumption" : 80
 		     		  		}
 
 		     		  	]
@@ -173,18 +173,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "San Antonio1",
-		     		  			"Consumption" : 60,
+		     		  			"Consumption" : 60
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Antonio2",
-		     		  			"Consumption" : 20,
+		     		  			"Consumption" : 20
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Antonio3",
-		     		  			"Consumption" : 20,
+		     		  			"Consumption" : 20
 		     		  		}
 
 		     		  	]
@@ -203,24 +203,24 @@
 	  				{
 					  
 					  "Name" : "Aserri",
-		     		  "Consumption" : 200, 
+		     		  "Consumption" : 200,
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
 		     		  			"Name" : "Aserri1",
-		     		  			"Consumption" : 30,
+		     		  			"Consumption" : 30
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Aserri2",
-		     		  			"Consumption" : "130",
+		     		  			"Consumption" : "130"
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Aserri3",
-		     		  			"Consumption" : "40",
+		     		  			"Consumption" : "40"
 		     		  		}
 
 		     		  	]
@@ -231,24 +231,24 @@
 	     		  	{
 					  
 					  "Name" : "Legua",
-		     		  "Consumption" : 200, 
+		     		  "Consumption" : 200,
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
 		     		  			"Name" : "Legua1",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Legua2",
-		     		  			"Consumption" : 80,
+		     		  			"Consumption" : 80
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Legua3",
-		     		  			"Consumption" : 70,
+		     		  			"Consumption" : 70
 		     		  		}
 
 		     		  	]
@@ -265,18 +265,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "Salitrillios1",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Salitrillios2",
-		     		  			"Consumption" : 25,
+		     		  			"Consumption" : 25
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Salitrillios3",
-		     		  			"Consumption" : 25,
+		     		  			"Consumption" : 25
 		     		  		}
 
 		     		  	]
@@ -303,18 +303,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "Patarra1",
-		     		  			"Consumption" : 100,
+		     		  			"Consumption" : 100
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Patarra2",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Patarra3",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  		}
 
 		     		  	]
@@ -330,19 +330,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "Desamparados",
-		     		  			"Consumption" : 100,
+		     		  			"Name" : "Desamparados1",
+		     		  			"Consumption" : 100
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "Desamparados",
-		     		  			"Consumption" : 100,
+		     		  			"Name" : "Desamparados2",
+		     		  			"Consumption" : 100
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "Desamparados",
-		     		  			"Consumption" : 100,
+		     		  			"Name" : "Desamparados3",
+		     		  			"Consumption" : 100
 		     		  		}
 
 		     		  	]
@@ -359,18 +359,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "San Rafael Arriba1",
-		     		  			"Consumption" : 40,
+		     		  			"Consumption" : 40
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Rafael Arriba2",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Rafael Arriba3",
-		     		  			"Consumption" : 10,
+		     		  			"Consumption" : 10
 		     		  		}
 
 		     		  	]
@@ -398,18 +398,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "Granadilla1",
-		     		  			"Consumption" : 200,
+		     		  			"Consumption" : 200
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Granadilla2",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Granadilla3",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  		}
 
 		     		  	]
@@ -426,13 +426,13 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "Curridabat1",
-		     		  			"Consumption" : 80,
+		     		  			"Consumption" : 80
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Curridabat2",
-		     		  			"Consumption" : 80,
+		     		  			"Consumption" : 80
 		     		  		}
 		     		  		,
 		     		  		{
@@ -454,18 +454,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "Tirrases1",
-		     		  			"Consumption" : 90,
+		     		  			"Consumption" : 90
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Tirrases2",
-		     		  			"Consumption" : 90,
+		     		  			"Consumption" : 90
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Tirrases3",
-		     		  			"Consumption" : 70,
+		     		  			"Consumption" : 70
 		     		  		}
 
 		     		  	]
@@ -492,18 +492,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "Jardin1",
-		     		  			"Consumption" : 100,
+		     		  			"Consumption" : 100
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Jardin2",
-		     		  			"Consumption" : 100,
+		     		  			"Consumption" : 100
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Jardin3",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  		}
 
 		     		  	]
@@ -520,18 +520,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "Copey1",
-		     		  			"Consumption" : 100,
+		     		  			"Consumption" : 100
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Copey2",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Copey3",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  		}
 
 		     		  	]
@@ -548,18 +548,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "Santa Maria1",
-		     		  			"Consumption" : 15,
+		     		  			"Consumption" : 15
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Santa Maria2",
-		     		  			"Consumption" : 25,
+		     		  			"Consumption" : 25
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Santa Maria3",
-		     		  			"Consumption" : 10,
+		     		  			"Consumption" : 10
 		     		  		}
 
 		     		  	]
@@ -586,18 +586,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "San Miguel1",
-		     		  			"Consumption" : 100,
+		     		  			"Consumption" : 100
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Miguel2",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Miguel3",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  		}
 
 		     		  	]
@@ -614,18 +614,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "San Antonio1",
-		     		  			"Consumption" : 250,
+		     		  			"Consumption" : 250
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Antonio2",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Antonio3",
-		     		  			"Consumption" : 200,
+		     		  			"Consumption" : 200
 		     		  		}
 
 		     		  	]
@@ -643,18 +643,18 @@
 
 		     		  		{
 		     		  			"Name" : "San Rafael1",
-		     		  			"Consumption" : 75,
+		     		  			"Consumption" : 75
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Rafael2",
-		     		  			"Consumption" : 15,
+		     		  			"Consumption" : 15
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Rafael3",
-		     		  			"Consumption" : 10,
+		     		  			"Consumption" : 10
 		     		  		}
 		     		  	]
 
@@ -680,18 +680,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "Guadalupe1",
-		     		  			"Consumption" : 200,
+		     		  			"Consumption" : 200
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Guadalupe2",
-		     		  			"Consumption" : 25,
+		     		  			"Consumption" : 25
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Guadalupe3",
-		     		  			"Consumption" : 25,
+		     		  			"Consumption" : 25
 		     		  		}
 
 		     		  	]
@@ -708,18 +708,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "San Francisco1",
-		     		  			"Consumption" : 150,
+		     		  			"Consumption" : 150
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Francisco2",
-		     		  			"Consumption" : 150,
+		     		  			"Consumption" : 150
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "San Francisco3",
-		     		  			"Consumption" : 50,
+		     		  			"Consumption" : 50
 		     		  		}
 
 		     		  	]
@@ -736,18 +736,18 @@
 		     		  	[
 		     		  		{
 		     		  			"Name" : "Mata de Platano1",
-		     		  			"Consumption" : 85,
+		     		  			"Consumption" : 85
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Mata de Platano2",
-		     		  			"Consumption" : 5,
+		     		  			"Consumption" : 5
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Mata de Platano3",
-		     		  			"Consumption" : 10,
+		     		  			"Consumption" : 10
 		     		  		}
 
 		     		  	]
@@ -1087,19 +1087,19 @@
 		     		  "Neighborhhoods" 200:
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Jeronimo1",
+		     		  			"Consumption" : 50
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Jeronimo2",
+		     		  			"Consumption" : 50
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Jeronimo3",
+		     		  			"Consumption" : 100
 		     		  		}
 
 		     		  	]
@@ -1115,19 +1115,19 @@
 		     		  "Neighborhhoods" 200:
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "La Trinidad1",
+		     		  			"Consumption" : 75
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "La Trinidad2",
+		     		  			"Consumption" : 75
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "La Trinidad3",
+		     		  			"Consumption" : 50
 		     		  		}
 
 		     		  	]
@@ -1154,19 +1154,19 @@
 		     		  "Neighborhhoods" 500:
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Pavas1",
+		     		  			"Consumption" : 250
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Pavas2",
+		     		  			"Consumption" : 200
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Pavas3",
+		     		  			"Consumption" : 50
 		     		  		}
 
 		     		  	]
@@ -1182,19 +1182,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Hatillo1",
+		     		  			"Consumption" : 50
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Hatillo2",
+		     		  			"Consumption" : 50
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Hatillo3",
+		     		  			"Consumption" : 50
 		     		  		}
 
 		     		  	]
@@ -1210,19 +1210,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Zapote1",
+		     		  			"Consumption" : 100
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Zapote2",
+		     		  			"Consumption" : 25
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Zapote3",
+		     		  			"Consumption" : 25
 		     		  		}
 
 		     		  	]
@@ -1232,197 +1232,6 @@
 
 
      		}
-     		,
-     		
-     		{ "Name" : "Perez Zeledon",
-     		  "Consumption" : 500, 
-     		  
-     		  "Districts" :
-
-     		  	[
-
-
-	  				{
-					  
-					  "Name" : "San Isidro",
-		     		  "Consumption" 300: , 
-		      	    	  
-		     		  "Neighborhhoods" :
-		     		  	[
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  			
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-
-		     		  	]
-
-	     		  	}
-					,
-
-	  				{
-					  
-					  "Name" : "Platanares",
-		     		  "Consumption" 100: , 
-		      	    	  
-		     		  "Neighborhhoods" :
-		     		  	[
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  			
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-
-		     		  	]
-
-	     		  	}
-	     		  	,
-
-	  				{
-					  
-					  "Name" : "Rivas",
-		     		  "Consumption" 100: , 
-		      	    	  
-		     		  "Neighborhhoods" :
-		     		  	[
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  			
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-
-		     		  	]
-
-	     		  	}
-     		  	]
-
-
-     		}
-     		,
-     		{ "Name" : "Vazques de Coronado",
-     		  "Consumption" : 600, 
-     		  
-     		  "Districts" :
-
-     		  	[
-
-
-	  				{
-					  
-					  "Name" : "Dulce Nombre de Jesus",
-		     		  "Consumption" 200: , 
-		      	    	  
-		     		  "Neighborhhoods" :
-		     		  	[
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  			
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-
-		     		  	]
-
-	     		  	}
-	     		  	,
-
-	  				{
-					  
-					  "Name" : "Patalillo",
-		     		  "Consumption" 200: , 
-		      	    	  
-		     		  "Neighborhhoods" :
-		     		  	[
-
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  			
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-		     		  	]
-
-	     		  	}
-	     		  	,
-
-	  				{
-					  
-					  "Name" : "Cascajal",
-		     		  "Consumption" 200: , 
-		      	    	  
-		     		  "Neighborhhoods" :
-		     		  	[
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  			
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-
-		     		  	]
-
-	     		  	}
-     		  	]
-
-     		}
-
 
      		]
 
