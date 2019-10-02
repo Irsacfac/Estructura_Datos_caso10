@@ -1,6 +1,6 @@
      {
      	"Plant" : "San Jose"
-     	"Consumption" : 10600
+     	"Capacity" : 10600
      	"Cantons" :
 
      		[
@@ -425,19 +425,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Curridabat1",
+		     		  			"Consumption" : 80,
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Curridabat2",
+		     		  			"Consumption" : 80,
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Curridabat3",
+		     		  			"Consumption" : 90
 		     		  		}
 
 		     		  	]
@@ -447,25 +447,25 @@
 
 	     		  	{
 					  
-					  "Name" : "Sanchez",
+					  "Name" : "Tirrases",
 		     		  "Consumption" : 250, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Tirrases1",
+		     		  			"Consumption" : 90,
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Tirrases2",
+		     		  			"Consumption" : 90,
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Tirrases3",
+		     		  			"Consumption" : 70,
 		     		  		}
 
 		     		  	]
@@ -491,19 +491,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Jardin1",
+		     		  			"Consumption" : 100,
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Jardin2",
+		     		  			"Consumption" : 100,
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Jardin3",
+		     		  			"Consumption" : 50,
 		     		  		}
 
 		     		  	]
@@ -519,19 +519,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Copey1",
+		     		  			"Consumption" : 100,
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Copey2",
+		     		  			"Consumption" : 50,
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Copey3",
+		     		  			"Consumption" : 50,
 		     		  		}
 
 		     		  	]
@@ -541,25 +541,25 @@
 
 	     		  	{
 					  
-					  "Name" : "Santa Maria4",
+					  "Name" : "Santa Maria",
 		     		  "Consumption" : 50, 
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Santa Maria1",
+		     		  			"Consumption" : 15,
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Santa Maria2",
+		     		  			"Consumption" : 25,
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Santa Maria3",
+		     		  			"Consumption" : 10,
 		     		  		}
 
 		     		  	]
@@ -585,19 +585,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Miguel1",
+		     		  			"Consumption" : 100,
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Miguel2",
+		     		  			"Consumption" : 50,
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Miguel3",
+		     		  			"Consumption" : 50,
 		     		  		}
 
 		     		  	]
@@ -613,19 +613,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Antonio1",
+		     		  			"Consumption" : 250,
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Antonio2",
+		     		  			"Consumption" : 50,
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Antonio3",
+		     		  			"Consumption" : 200,
 		     		  		}
 
 		     		  	]
@@ -642,19 +642,19 @@
 		     		  	[
 
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Rafael1",
+		     		  			"Consumption" : 75,
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Rafael2",
+		     		  			"Consumption" : 15,
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Rafael3",
+		     		  			"Consumption" : 10,
 		     		  		}
 		     		  	]
 
@@ -679,19 +679,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Guadalupe1",
+		     		  			"Consumption" : 200,
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Guadalupe2",
+		     		  			"Consumption" : 25,
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Guadalupe3",
+		     		  			"Consumption" : 25,
 		     		  		}
 
 		     		  	]
@@ -707,19 +707,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Francisco1",
+		     		  			"Consumption" : 150,
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Francisco2",
+		     		  			"Consumption" : 150,
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Francisco3",
+		     		  			"Consumption" : 50,
 		     		  		}
 
 		     		  	]
@@ -735,19 +735,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Mata de Platano1",
+		     		  			"Consumption" : 85,
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Mata de Platano2",
+		     		  			"Consumption" : 5,
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Mata de Platano3",
+		     		  			"Consumption" : 10,
 		     		  		}
 
 		     		  	]
@@ -773,19 +773,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Leon XIII",
+		     		  			"Consumption" : 25
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Leon XIII",
+		     		  			"Consumption" : 25
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Leon XIII",
+		     		  			"Consumption" : 100
 		     		  		}
 
 		     		  	]
@@ -801,19 +801,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Juan",
+		     		  			"Consumption" : 50
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Juan",
+		     		  			"Consumption" : 50
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Juan",
+		     		  			"Consumption" : 50
 		     		  		}
 
 		     		  	]
@@ -829,19 +829,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Cinco Esquinas1",
+		     		  			"Consumption" : 75
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Cinco Esquinas2",
+		     		  			"Consumption" : 75
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Cinco Esquinas3",
+		     		  			"Consumption" : 150
 		     		  		}
 
 		     		  	]
@@ -869,19 +869,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Pedro1",
+		     		  			"Consumption" : 50
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Pedro2",
+		     		  			"Consumption" : 50
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Pedro3",
+		     		  			"Consumption" : 200
 		     		  		}
 
 		     		  	]
@@ -896,7 +896,21 @@
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
-
+		     		  		{
+		     		  			"Name" : "Sabanilla1",
+		     		  			"Consumption" : 200
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Sabanilla2",
+		     		  			"Consumption" : 25
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Sabanilla3",
+		     		  			"Consumption" : 25
+		     		  		}
 		     		  	]
 
 	     		  	}
@@ -910,19 +924,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Rafael1",
+		     		  			"Consumption" : 50
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Rafael2",
+		     		  			"Consumption" : 50
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Rafael3",
+		     		  			"Consumption" : 50
 		     		  		}
 
 		     		  	]
@@ -950,19 +964,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Santa Ana1",
+		     		  			"Consumption" : 75
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Santa Ana2",
+		     		  			"Consumption" : 35
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Santa Ana3",
+		     		  			"Consumption" : 40
 		     		  		}
 
 		     		  	]
@@ -978,19 +992,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Brasil1",
+		     		  			"Consumption" : 40
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Brasil2",
+		     		  			"Consumption" : 60
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Brasil3",
+		     		  			"Consumption" : 50
 		     		  		}
 
 		     		  	]
@@ -1006,19 +1020,19 @@
 		     		  "Neighborhhoods" :
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Pozos1",
+		     		  			"Consumption" : 75
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Pozos2",
+		     		  			"Consumption" : 75
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "Pozos3",
+		     		  			"Consumption" : 50
 		     		  		}
 
 		     		  	]
@@ -1045,19 +1059,19 @@
 		     		  "Neighborhhoods" 300:
 		     		  	[
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Vicente1",
+		     		  			"Consumption" : 100
 		     		  			
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Vicente2",
+		     		  			"Consumption" : 100
 		     		  		}
 		     		  		,
 		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
+		     		  			"Name" : "San Vicente3",
+		     		  			"Consumption" : 100
 		     		  		}
 
 		     		  	]
@@ -1122,101 +1136,6 @@
      		  	]
 
 
-     		}
-     		,
-     		{ "Name" : "Puriscal",
-     		  "Consumption" : 500, 
-     		  
-     		  "Districts" :
-
-     		  	[
-
-
-	  				{
-					  
-					  "Name" : "Santiago",
-		     		  "Consumption" : , 
-		      	    	  
-		     		  "Neighborhhoods" 150:
-		     		  	[
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  			
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-
-		     		  	]
-
-	     		  	}
-
-					,
-
-	     		  	{
-					  
-					  "Name" : "Mercedes Sur",
-		     		  "Consumption" : , 
-		      	    	  
-		     		  "Neighborhhoods" 130:
-		     		  	[
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  			
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-
-		     		  	]
-
-	     		  	}
-     		  		,
-     		  	
-	     		  	{
-					  
-					  "Name" : "San Rafael",
-		     		  "Consumption" : , 
-		      	    	  
-		     		  "Neighborhhoods" 220:
-		     		  	[
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  			
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-
-		     		  	]
-
-	     		  	}
-
-     		  	]
      		}
      		,
      		{ "Name" : "San Jose", 
@@ -1314,100 +1233,7 @@
 
      		}
      		,
-     		{ "Name" : "Tarrazu",
-     		  "Consumption" : 600, 
-     		  
-     		  "Districts" :
-
-     		  	[
-
-
-	  				{
-					  
-					  "Name" : "San Marcos",
-		     		  "Consumption" 200: , 
-		      	    	  
-		     		  "Neighborhhoods" :
-		     		  	[
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  			
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-
-		     		  	]
-
-	     		  	}
-					,
-
-	  				{
-					  
-					  "Name" : "San Lorenzo",
-		     		  "Consumption" 200: , 
-		      	    	  
-		     		  "Neighborhhoods" :
-		     		  	[
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  			
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-
-		     		  	]
-
-	     		  	}
-	     		  	,
-
-	  				{
-					  
-					  "Name" : "San Carlos",
-		     		  "Consumption" 200: , 
-		      	    	  
-		     		  "Neighborhhoods" :
-		     		  	[
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  			
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-		     		  		,
-		     		  		{
-		     		  			"Name" : "",
-		     		  			"Consumption" : "",
-		     		  		}
-
-		     		  	]
-
-	     		  	}
-     		  	]
-
-     		}
-     		,
+     		
      		{ "Name" : "Perez Zeledon",
      		  "Consumption" : 500, 
      		  
