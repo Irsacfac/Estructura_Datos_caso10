@@ -1,159 +1,849 @@
      {
-     	"SJ Cantons" : 10600
+     	"Province" : "San Jose"
+     	"Capacity" : 10600
+     	"Cantons" :
 
      		[
 
 
-     		{ "Acosta" : 600 
+     		{ "Name" : "Acosta",
+     		  "Consumption" : 600,
+     		  
+     		  "Districts" :
 
-     			[
+     		  	[
 
 
-     			]
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" 300: , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+  					,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" 200: , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" 100: , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+
+     		  	]
 
      		}
      		,
-     		{ "Alajuelita" : 600 
+     		{ "Name" : "Alajuelita",
+     		  "Consumption" : 600, 
+     		  
+     		  "Districts" :
 
-     			[
+     		  	[
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" 300: , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+  					,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" 200: , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" 100: , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+     		  	]
+     		}
+     		,
+     		{ "Name" : "Aserri",
+     		  "Consumption" : 500,
+     		  
+     		  "Districts" :
+
+     		  	[
+
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+
+     		  	]
+     		}
+     		,
+     		{ "Name" : "Desamparados",
+     		  "Consumption" : 600, 
+
+     		  "Districts" :
+
+     		  	[
 
 
-     			]
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+					,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
 
      		}
      		,
-     		{ "Aserri" : 500 
+     		{ "Name" : "Curridabat",
+     		  "Consumption" : 800,
+     		  
+     		  "Districts" :
 
-     			[
-
-
-     			]
-
-     		}
-     		,
-     		{ "Desamparados" : 600 
-
-     			[
+     		  	[
 
 
-     			]
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
 
-     		}
-     		,
-     		{ "Curridabat" : 800 
+		     		  	]
 
-     			[
+	     		  	}
+					,
 
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
 
-     			]
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
 
      		}
      		, 
-     		{ "Dota" : 500 
+     		{ "Name" : "Dota",
+     		  "Consumption" : 500, 
+     		  
+     		  "Districts" :
 
-     			[
+     		  	[
 
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
 
-     			]
+		     		  	]
+
+	     		  	}
+					,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
 
      		}
-			, 
-     		{ "Escazu" : 800 
+			,  
+     		{ "Name" : "Escazu",
+     		  "Consumption" : 800 , 
+     		  
+     		  "Districts" :
 
-     			[
+     		  	[
 
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
 
-     			]
+		     		  	]
+
+	     		  	}
+					,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
 
      		} 
      		,
-     		{ "Goicochea" : 700 
+     		{ "Name" : "Goicochea",
+     		  "Consumption" : 700 , 
+     		  
+     		  "Districts" :
 
-     			[
+     		  	[
 
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
 
-     			]
+		     		  	]
 
-     		}
-     		,
-     		{ "Leon Cortes Castro" : 600
+	     		  	}
+					,
 
-     			[
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
 
+		     		  	]
 
-     			]
+	     		  	}
+	     		  	,
 
-     		}
-     		,
-     		{ "Montes de Oca" : 700 
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
 
-     			[
+		     		  	]
 
-
-     			]
-
-     		}
-     		,
-     		{ "Mora" : 500 
-
-     			[
-
-
-     			]
-
-     		}
-     		,
-     		{ "Moravia" : 700 
-
-     			[
-
-
-     			]
-
-     		}
-     		,
-     		{ "Puriscal" : 500 
-
-     			[
-
-
-     			]
+	     		  	}
+     		  	]
 
      		}
      		,
-     		{ "San Jose" : 800 
+     		{ "Name" : "Leon Cortes Castro",
+     		  "Consumption" : 600, 
+     		  
+     		  "Districts" :
 
-     			[
+     		  	[
 
 
-     			]
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+ 					,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}  		  	
+     		  	]
+
+
 
      		}
      		,
-     		{ "Tarrazu" : 600 
+     		{ "Name" : "Montes de Oca",
+     		  "Consumption" : 700, 
+     		  
+     		  "Districts" :
 
-     			[
+     		  	[
 
 
-     			]
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+					,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
+
 
      		}
      		,
-     		{ "Turrubares" : 500 
+     		{ "Name" : "Mora",
+     		  "Consumption": 500, 
+     		  
+     		  "Districts" :
 
-     			[
+     		  	[
 
 
-     			]
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+					,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
 
      		}
      		,
-     		{ "Vazques de Coronado" : 600 
+     		{ "Name" : "Moravia",
+     		  "Consumption" : 700, 
+     		  
+     		  "Districts" :
 
-     			[
+     		  	[
 
 
-     			]
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+					,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
+
+     		}
+     		,
+     		{ "Name" : "Puriscal",
+     		  "Consumption" : 500, 
+     		  
+     		  "Districts" :
+
+     		  	[
+
+
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+
+					,
+
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+     		  		,
+     		  	
+	     		  	{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+
+     		  	]
+     		}
+     		,
+     		{ "Name" : "San Jose", 
+     		  "Consumption" : 800, 
+     		  
+     		  "Districts" :
+
+     		  	[
+
+
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+					,
+
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
+
+     		}
+     		,
+     		{ "Name" : "Tarrazu",
+     		  "Consumption" : 600, 
+     		  
+     		  "Districts" :
+
+     		  	[
+
+
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+					,
+
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
+     		}
+     		,
+     		{ "Name" : "Turrubares",
+     		  "Consumption" : 500, 
+     		  
+     		  "Districts" :
+
+     		  	[
+
+
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+					,
+
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
+
+     		}
+     		,
+     		{ "Name" : "Vazques de Coronado",
+     		  "Consumption" : 600, 
+     		  
+     		  "Districts" :
+
+     		  	[
+
+
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	  				{
+					  
+					  "Name" : "",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  	]
+
+	     		  	}
+     		  	]
 
      		}
 
