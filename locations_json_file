@@ -1,0 +1,1238 @@
+     {
+     	"Plant" : "San Jose"
+     	"Capacity" : 10600
+     	"Cantons" :
+
+     		[
+
+
+     		{ "Name" : "Acosta",
+     		  "Consumption" : 600,
+     		  
+     		  "Districts" :
+
+     		  	[
+
+
+	     		  	{
+					  
+					  "Name" : "San Ignacio",
+		     		  "Consumption" 300: , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  		{
+		     		  			"Name" : "San Ignacio1",
+		     		  			"Consumption" : 50
+
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Ignacio2",
+		     		  			"Consumption" : 50
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Ignacio3",
+		     		  			"Consumption" : 100
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+  					,
+
+	     		  	{
+					  
+					  "Name" : "Palmichal",
+		     		  "Consumption" 200: , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Palmichal1",
+		     		  			"Consumption" : 70
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Palmichal2",
+		     		  			"Consumption" : 70
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Palmichal3",
+		     		  			"Consumption" : 60
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "Guaitil",
+		     		  "Consumption" 100: , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Guaitil1",
+		     		  			"Consumption" : 30
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Guaitil2",
+		     		  			"Consumption" : 30
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Guaitil3",
+		     		  			"Consumption" : 40
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+
+     		  	]
+
+     		}
+     		,
+     		{ "Name" : "Alajuelita",
+     		  "Consumption" : 600, 
+     		  
+     		  "Districts" :
+
+     		  	[
+
+	     		  	{
+					  
+					  "Name" : "Alajuelita",
+		     		  "Consumption" 300: , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Alajuelita1",
+		     		  			"Consumption" : 100
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Alajuelita2",
+		     		  			"Consumption" : 150
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Alajuelita3",
+		     		  			"Consumption" : 50
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+  					,
+
+	     		  	{
+					  
+					  "Name" : "San Josecito",
+		     		  "Consumption" 200: , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "San Josecito1",
+		     		  			"Consumption" : 60
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Josecito2",
+		     		  			"Consumption" : 60
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Josecito3",
+		     		  			"Consumption" : 80
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+	     		  	{
+					  
+					  "Name" : "San Antonio",
+		     		  "Consumption" 100: , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "San Antonio1",
+		     		  			"Consumption" : 60
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Antonio2",
+		     		  			"Consumption" : 20
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Antonio3",
+		     		  			"Consumption" : 20
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+     		  	]
+     		}
+     		,
+     		{ "Name" : "Aserri",
+     		  "Consumption" : 500,
+     		  
+     		  "Districts" :
+
+     		  	[
+
+	  				{
+					  
+					  "Name" : "Aserri",
+		     		  "Consumption" : 200,
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Aserri1",
+		     		  			"Consumption" : 30
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Aserri2",
+		     		  			"Consumption" : "130"
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Aserri3",
+		     		  			"Consumption" : "40"
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "Legua",
+		     		  "Consumption" : 200,
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Legua1",
+		     		  			"Consumption" : 50
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Legua2",
+		     		  			"Consumption" : 80
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Legua3",
+		     		  			"Consumption" : 70
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "Salitrillios",
+		     		  "Consumption" : 100, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Salitrillios1",
+		     		  			"Consumption" : 50
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Salitrillios2",
+		     		  			"Consumption" : 25
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Salitrillios3",
+		     		  			"Consumption" : 25
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+
+     		  	]
+     		}
+     		,
+     		{ "Name" : "Desamparados",
+     		  "Consumption" : 600, 
+
+     		  "Districts" :
+
+     		  	[
+
+
+	  				{
+					  
+					  "Name" : "Patarra",
+		     		  "Consumption" : 200, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Patarra1",
+		     		  			"Consumption" : 100
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Patarra2",
+		     		  			"Consumption" : 50
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Patarra3",
+		     		  			"Consumption" : 50
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+					,
+
+	     		  	{
+					  
+					  "Name" : "Desamparados",
+		     		  "Consumption" : 300, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Desamparados1",
+		     		  			"Consumption" : 100
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Desamparados2",
+		     		  			"Consumption" : 100
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Desamparados3",
+		     		  			"Consumption" : 100
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "San Rafael Arriba",
+		     		  "Consumption" : 100, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "San Rafael Arriba1",
+		     		  			"Consumption" : 40
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Rafael Arriba2",
+		     		  			"Consumption" : 50
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Rafael Arriba3",
+		     		  			"Consumption" : 10
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
+
+     		}
+     		,
+     		{ "Name" : "Curridabat",
+     		  "Consumption" : 800,
+     		  
+     		  "Districts" :
+
+     		  	[
+
+
+	  				{
+					  
+					  "Name" : "Granadilla",
+		     		  "Consumption" : 300, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Granadilla1",
+		     		  			"Consumption" : 200
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Granadilla2",
+		     		  			"Consumption" : 50
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Granadilla3",
+		     		  			"Consumption" : 50
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+					,
+
+	     		  	{
+					  
+					  "Name" : "Curridabat",
+		     		  "Consumption" : 250, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Curridabat1",
+		     		  			"Consumption" : 80
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Curridabat2",
+		     		  			"Consumption" : 80
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Curridabat3",
+		     		  			"Consumption" : 90
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "Tirrases",
+		     		  "Consumption" : 250, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Tirrases1",
+		     		  			"Consumption" : 90
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Tirrases2",
+		     		  			"Consumption" : 90
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Tirrases3",
+		     		  			"Consumption" : 70
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
+
+     		}
+     		, 
+     		{ "Name" : "Dota",
+     		  "Consumption" : 500, 
+     		  
+     		  "Districts" :
+
+     		  	[
+
+	  				{
+					  
+					  "Name" : "Jardin",
+		     		  "Consumption" : 250, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Jardin1",
+		     		  			"Consumption" : 100
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Jardin2",
+		     		  			"Consumption" : 100
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Jardin3",
+		     		  			"Consumption" : 50
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+					,
+
+	     		  	{
+					  
+					  "Name" : "Copey",
+		     		  "Consumption" : 200, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Copey1",
+		     		  			"Consumption" : 100
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Copey2",
+		     		  			"Consumption" : 50
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Copey3",
+		     		  			"Consumption" : 50
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "Santa Maria",
+		     		  "Consumption" : 50, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Santa Maria1",
+		     		  			"Consumption" : 15
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Santa Maria2",
+		     		  			"Consumption" : 25
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Santa Maria3",
+		     		  			"Consumption" : 10
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
+
+     		}
+			,  
+     		{ "Name" : "Escazu",
+     		  "Consumption" : 800 , 
+     		  
+     		  "Districts" :
+
+     		  	[
+
+	  				{
+					  
+					  "Name" : "San Miguel",
+		     		  "Consumption" : 200, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "San Miguel1",
+		     		  			"Consumption" : 100
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Miguel2",
+		     		  			"Consumption" : 50
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Miguel3",
+		     		  			"Consumption" : 50
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+					,
+
+	     		  	{
+					  
+					  "Name" : "San Antonio",
+		     		  "Consumption" : 500, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "San Antonio1",
+		     		  			"Consumption" : 250
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Antonio2",
+		     		  			"Consumption" : 50
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Antonio3",
+		     		  			"Consumption" : 200
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "San Rafael",
+		     		  "Consumption" : 100, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+
+		     		  		{
+		     		  			"Name" : "San Rafael1",
+		     		  			"Consumption" : 75
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Rafael2",
+		     		  			"Consumption" : 15
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Rafael3",
+		     		  			"Consumption" : 10
+		     		  		}
+		     		  	]
+
+	     		  	}
+     		  	]
+
+
+     		} 
+     		,
+     		{ "Name" : "Goicochea",
+     		  "Consumption" : 700 , 
+     		  
+     		  "Districts" :
+
+     		  	[
+
+	  				{
+					  
+					  "Name" : "Guadalupe",
+		     		  "Consumption" : 250, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Guadalupe1",
+		     		  			"Consumption" : 200
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Guadalupe2",
+		     		  			"Consumption" : 25
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Guadalupe3",
+		     		  			"Consumption" : 25
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+					,
+
+	     		  	{
+					  
+					  "Name" : "San Francisco",
+		     		  "Consumption" : 350, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "San Francisco1",
+		     		  			"Consumption" : 150
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Francisco2",
+		     		  			"Consumption" : 150
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Francisco3",
+		     		  			"Consumption" : 50
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "Mata de Platano",
+		     		  "Consumption" : 100, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Mata de Platano1",
+		     		  			"Consumption" : 85
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Mata de Platano2",
+		     		  			"Consumption" : 5
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Mata de Platano3",
+		     		  			"Consumption" : 10
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
+     		}
+     		,
+     		{ "Name" : "Tibas",
+     		  "Consumption" : 600, 
+     		  
+     		  "Districts" :
+
+     		  	[
+
+
+	  				{
+					  
+					  "Name" : "Leon XIII",
+		     		  "Consumption" : 150, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Leon XIII",
+		     		  			"Consumption" : 25
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Leon XIII",
+		     		  			"Consumption" : 25
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Leon XIII",
+		     		  			"Consumption" : 100
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+ 					,
+
+	     		  	{
+					  
+					  "Name" : "San Juan",
+		     		  "Consumption" : 150, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "San Juan",
+		     		  			"Consumption" : 50
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Juan",
+		     		  			"Consumption" : 50
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Juan",
+		     		  			"Consumption" : 50
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "Cinco Esquinas",
+		     		  "Consumption" : 300, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Cinco Esquinas1",
+		     		  			"Consumption" : 75
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Cinco Esquinas2",
+		     		  			"Consumption" : 75
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Cinco Esquinas3",
+		     		  			"Consumption" : 150
+		     		  		}
+
+		     		  	]
+
+	     		  	}  		  	
+     		  	]
+
+
+
+     		}
+     		,
+     		{ "Name" : "Montes de Oca",
+     		  "Consumption" : 700, 
+     		  
+     		  "Districts" :
+
+     		  	[
+
+
+	  				{
+					  
+					  "Name" : "San Pedro",
+		     		  "Consumption" : 300, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "San Pedro1",
+		     		  			"Consumption" : 50
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Pedro2",
+		     		  			"Consumption" : 50
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Pedro3",
+		     		  			"Consumption" : 200
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+					,
+
+	     		  	{
+					  
+					  "Name" : "Sabanilla",
+		     		  "Consumption" : 250, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Sabanilla1",
+		     		  			"Consumption" : 200
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Sabanilla2",
+		     		  			"Consumption" : 25
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Sabanilla3",
+		     		  			"Consumption" : 25
+		     		  		}
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "San Rafael",
+		     		  "Consumption" : 150, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "San Rafael1",
+		     		  			"Consumption" : 50
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Rafael2",
+		     		  			"Consumption" : 50
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Rafael3",
+		     		  			"Consumption" : 50
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
+
+
+     		}
+     		,
+     		{ "Name" : "Santa Ana",
+     		  "Consumption": 500, 
+     		  
+     		  "Districts" :
+
+     		  	[
+
+
+	  				{
+					  
+					  "Name" : "Santa Ana",
+		     		  "Consumption" : 150, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Santa Ana1",
+		     		  			"Consumption" : 75
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Santa Ana2",
+		     		  			"Consumption" : 35
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Santa Ana3",
+		     		  			"Consumption" : 40
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+					,
+
+	     		  	{
+					  
+					  "Name" : "Brasil",
+		     		  "Consumption" : 150, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Brasil1",
+		     		  			"Consumption" : 40
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Brasil2",
+		     		  			"Consumption" : 60
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Brasil3",
+		     		  			"Consumption" : 50
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "Pozos",
+		     		  "Consumption" : 200, 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Pozos1",
+		     		  			"Consumption" : 75
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Pozos2",
+		     		  			"Consumption" : 75
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Pozos3",
+		     		  			"Consumption" : 50
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
+
+     		}
+     		,
+     		{ "Name" : "Moravia",
+     		  "Consumption" : 700, 
+     		  
+     		  "Districts" :
+
+     		  	[
+
+
+	  				{
+					  
+					  "Name" : "San Vicente",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" 300:
+		     		  	[
+		     		  		{
+		     		  			"Name" : "San Vicente1",
+		     		  			"Consumption" : 100
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Vicente2",
+		     		  			"Consumption" : 100
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Vicente3",
+		     		  			"Consumption" : 100
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+					,
+
+	     		  	{
+					  
+					  "Name" : "San Jeronimo",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" 200:
+		     		  	[
+		     		  		{
+		     		  			"Name" : "San Jeronimo1",
+		     		  			"Consumption" : 50
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Jeronimo2",
+		     		  			"Consumption" : 50
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "San Jeronimo3",
+		     		  			"Consumption" : 100
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	     		  	{
+					  
+					  "Name" : "La Trinidad",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" 200:
+		     		  	[
+		     		  		{
+		     		  			"Name" : "La Trinidad1",
+		     		  			"Consumption" : 75
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "La Trinidad2",
+		     		  			"Consumption" : 75
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "La Trinidad3",
+		     		  			"Consumption" : 50
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
+
+     		}
+     		,
+     		{ "Name" : "San Jose", 
+     		  "Consumption" : 800, 
+     		  
+     		  "Districts" :
+
+     		  	[
+
+
+	  				{
+					  
+					  "Name" : "Pavas",
+		     		  "Consumption" : , 
+		      	    	  
+		     		  "Neighborhhoods" 500:
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Pavas1",
+		     		  			"Consumption" : 250
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Pavas2",
+		     		  			"Consumption" : 200
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Pavas3",
+		     		  			"Consumption" : 50
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+					,
+
+	  				{
+					  
+					  "Name" : "Hatillo",
+		     		  "Consumption" 150: , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Hatillo1",
+		     		  			"Consumption" : 50
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Hatillo2",
+		     		  			"Consumption" : 50
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Hatillo3",
+		     		  			"Consumption" : 50
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+	     		  	,
+
+	  				{
+					  
+					  "Name" : "Zapote",
+		     		  "Consumption" 150: , 
+		      	    	  
+		     		  "Neighborhhoods" :
+		     		  	[
+		     		  		{
+		     		  			"Name" : "Zapote1",
+		     		  			"Consumption" : 100
+		     		  			
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Zapote2",
+		     		  			"Consumption" : 25
+		     		  		}
+		     		  		,
+		     		  		{
+		     		  			"Name" : "Zapote3",
+		     		  			"Consumption" : 25
+		     		  		}
+
+		     		  	]
+
+	     		  	}
+     		  	]
+
+
+     		}
+
+     		]
+
+     }
