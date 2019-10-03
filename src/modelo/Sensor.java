@@ -63,6 +63,10 @@ public class Sensor implements Comparable<Sensor>{
 	public String getCanton() {
 		return canton;
 	}
+	
+	public String getPath() {
+		return String.format("{0}/{0}/{0}", getCanton(), getDistrito(), getBarrio());
+	}
 
 	@Override
 	public int compareTo(Sensor pSensor) {

@@ -1,6 +1,7 @@
 package arboles;
+import modelo.Sensor;
 
-public class NodoSplay<T> implements Comparable<NodoSplay<T>>{
+public class NodoSplay<T> implements Comparable {
 	private T elemento;
 	private NodoSplay<T> hijoIzq;
 	private NodoSplay<T> hijoDer;
@@ -29,18 +30,17 @@ public class NodoSplay<T> implements Comparable<NodoSplay<T>>{
 
 	public T getElemento() {
 		return elemento;
-	}
+	}	
 
 	@Override
-	public int compareTo(NodoSplay<T> pNodo) {
+	public int compareTo(Object pTextoBusqueda) {
 		// TODO Auto-generated method stub
-		Comparable comparado = (Comparable) elemento; 
-		Comparable comparador = (Comparable) pNodo.getElemento();
-		int result = 0;
-		try {
-			result = comparado.compareTo(comparador);
-		} catch (Exception e) {
-			// TODO: handle exception
+		int result = -1;
+		
+		if (elemento instanceof NodoN_ario) {
+			NodoN_ario<T> nodo = (NodoN_ario<T>)elemento;
+			Sensor current = (Sensor)nodo.getElemento();
+			result = current.getPath().toLowerCase().contains(pTextoBusqueda.toString().toLowerCase()) ? 0 : current.getPath().compareTo(pTextoBusqueda.toString());
 		}
 		
 		return result;
