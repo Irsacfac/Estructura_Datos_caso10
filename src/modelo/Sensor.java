@@ -9,7 +9,7 @@ public class Sensor implements Comparable<Sensor>{
 	private int cm3Base;
 	private int cm3Actual;
 	
-	Sensor(int pID, String pCanton){
+	public Sensor(int pID, String pCanton){
 		ID = pID;
 		canton = pCanton;
 		distrito = "";
@@ -65,7 +65,7 @@ public class Sensor implements Comparable<Sensor>{
 	}
 	
 	public String getPath() {
-		return String.format("{0}/{0}/{0}", getCanton(), getDistrito(), getBarrio());
+		return String.format("%1$s/%2$s/%3$s", this.getCanton(), getDistrito(), getBarrio());
 	}
 
 	@Override

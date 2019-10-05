@@ -3,6 +3,7 @@ import modelo.Sensor;
 
 public class NodoSplay<T> implements Comparable {
 	private T elemento;
+	private NodoSplay<T> padre;
 	private NodoSplay<T> hijoIzq;
 	private NodoSplay<T> hijoDer;
 	
@@ -10,6 +11,14 @@ public class NodoSplay<T> implements Comparable {
 		elemento = pElemento;
 		hijoIzq = null;
 		hijoDer = null;
+	}
+	
+	public NodoSplay<T> getPadre(){
+		return padre;
+	}
+	
+	public void setPadre(NodoSplay<T> pPadre) {
+		this.padre = pPadre;
 	}
 	
 	public NodoSplay<T> getHijoIzq() {
