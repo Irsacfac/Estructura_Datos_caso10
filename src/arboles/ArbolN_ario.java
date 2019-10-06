@@ -9,7 +9,7 @@ public class ArbolN_ario <T> {
 		splayTree = new SplayTree<NodoN_ario<T>>();
 	}
 	
-	public void agregar(NodoN_ario<T> pNodo, Object pPadre, Object pLlave) {
+	public void agregar(NodoN_ario<T> pNodo, NodoN_ario<T> pPadre, Object pLlave) {
 		NodoSplay<NodoN_ario<T>> miNodoSplay = new NodoSplay<NodoN_ario<T>>(pNodo);
 		splayTree.buscar(pLlave);
 		splayTree.agregar(miNodoSplay, pLlave); 
