@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="989a363a-194a-4a00-9842-f7afda1e588c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/arboles/NodoSplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arboles/NodoSplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arboles/SplayTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arboles/SplayTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locations_json_file" beforeDir="false" afterPath="$PROJECT_DIR$/src/JsonManager/locations_json_file" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -12,6 +11,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -37,20 +40,25 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JsonManager/locations_json_file">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arboles/SplayTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arboles/NodoSplay.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -130,6 +138,12 @@
               <item name="caso10" type="b2602c69:ProjectViewProjectNode" />
               <item name="Estructura_Datos_caso10" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JsonManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caso10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Estructura_Datos_caso10" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="modelo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -174,15 +188,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570338025322</updated>
-      <workItem from="1570338043222" duration="2371000" />
+      <workItem from="1570338043222" duration="2548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2371000" />
+    <option name="totallyTimeSpent" value="2548000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1208" y="-133" width="1216" height="1576" extended-state="7" />
+    <frame x="-1208" y="-133" width="1216" height="1576" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -251,17 +265,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modelo/Sensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/arboles/SplayTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -274,9 +281,19 @@
     <entry file="file://$PROJECT_DIR$/src/arboles/NodoSplay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modelo/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JsonManager/locations_json_file">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
