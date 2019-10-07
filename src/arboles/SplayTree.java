@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 import com.sun.org.apache.bcel.internal.generic.ArrayInstruction;
 
+import modelo.Sensor;
+
 public class SplayTree<T> {
 	private NodoSplay<T> raiz;
 	
@@ -79,7 +81,65 @@ public class SplayTree<T> {
 			
 		}
 	}
-	public void eliminar() {}
+	public boolean eliminar(NodoSplay<T> pNodo, Object pLlave) {
+		boolean result = false;
+		if(pNodo == null) {
+			return result;
+		}
+		NodoSplay<T> nodoEliminar = pNodo;
+		if (nodoEliminar.getElemento() instanceof NodoN_ario) {
+			//NodoN_ario<T> nodo = (NodoN_ario<T>)elemento;
+			if(nodoEliminar.compareTo(pLlave) < 0) {
+				eliminar(nodoEliminar.getHijoIzq(), pLlave);
+			}else if(nodoEliminar.compareTo(pLlave) > 0) {
+				eliminar(nodoEliminar.getHijoDer(), pLlave);
+			}else {
+				Sensor current = (Sensor)nodoEliminar.getElemento();
+				if(current.getPath().compareTo(pLlave.toString()) == 0){
+					splay(nodoEliminar);
+					NodoSplay<T> hijoIzquierdo = nodoEliminar.getHijoIzq();
+					if(hijoIzquierdo != null) {
+						hijoIzquierdo.setPadre(null);
+						nodoEliminar.setHijoIzq(null);
+					}
+					NodoSplay<T> hijoDerecho = nodoEliminar.getHijoDer();
+					if(hijoDerecho != null) {
+						hijoDerecho.setPadre(null);
+						nodoEliminar.setHijoDer(null);
+					}
+					raiz = unir(nodoEliminar.getHijoIzq(), nodoEliminar.getHijoDer());
+					nodoEliminar = null;
+					return true;
+				}
+				result = eliminar(nodoEliminar.getHijoIzq(), pLlave);
+				if(!result) {
+					eliminar(nodoEliminar.getHijoDer(), pLlave);
+				}
+			}
+			//result = current.getPath().toLowerCase().contains(pTextoBusqueda.toString().toLowerCase()) ? 0 : current.getPath().compareTo(pTextoBusqueda.toString());
+		}return result;
+	}
+	
+	private NodoSplay<T> unir(NodoSplay<T> pNodoIzquierdo, NodoSplay<T> pNodoDerecho) {
+		if(pNodoIzquierdo == null) {
+			return pNodoDerecho;
+		}
+		if(pNodoDerecho == null) {
+			return pNodoIzquierdo;
+		}
+		NodoSplay<T> nuevaRaiz = maximum(pNodoIzquierdo);
+		splay(nuevaRaiz);
+		nuevaRaiz.setHijoDer(pNodoDerecho);
+		pNodoDerecho.setPadre(nuevaRaiz);
+		return nuevaRaiz;
+	}
+	
+	private NodoSplay<T> maximum(NodoSplay<T> pNodo) {
+		while(pNodo.getHijoDer() != null) {
+			pNodo = pNodo.getHijoDer();
+		}
+		return pNodo;
+	}
 
 	//rotacion a la izquierda
 	private void rotarIzquierda(NodoSplay<T> pNodo) {
