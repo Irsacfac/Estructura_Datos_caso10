@@ -1,5 +1,7 @@
 package modelo;
 
+import java.util.Random;
+
 public class Sensor implements Comparable<Sensor>{
 	private int ID;
 	private String canton;
@@ -45,7 +47,7 @@ public class Sensor implements Comparable<Sensor>{
 	}
 
 	public void setCm3Base(int pCm3Base) {
-		this.cm3Base = pCm3Base;
+		this.cm3Base += pCm3Base;
 	}
 
 	public int getCm3Actual() {
@@ -69,7 +71,9 @@ public class Sensor implements Comparable<Sensor>{
 	}
 	
 	public void actualizar() {
-		
+		Random random = new Random();
+		int porcentaje = (random.nextInt(21))-8;
+		setCm3Actual(porcentaje);
 	}
 
 	@Override
