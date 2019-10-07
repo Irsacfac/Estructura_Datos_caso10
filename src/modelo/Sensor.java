@@ -17,6 +17,18 @@ public class Sensor implements Comparable<Sensor>{
 		distrito = "";
 		barrio = "";
 	}
+	public Sensor(int pID, String pCanton, String pDistrito ){
+		ID = pID;
+		canton = pCanton;
+		distrito = pDistrito;
+		barrio = "";
+	}
+	public Sensor(int pID, String pCanton, String pDistrito, String pBarrio ){
+		ID = pID;
+		canton = pCanton;
+		distrito = pDistrito;
+		barrio = pBarrio;
+	}
 
 	public String getDistrito() {
 		return distrito;
