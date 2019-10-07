@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="989a363a-194a-4a00-9842-f7afda1e588c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caso10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/caso10.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JsonManager/AJasonManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JsonManager/AJasonManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Sensor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -35,8 +31,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/modelo/Sensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+              <folding>
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1031#1032#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
+                <element signature="e#1273#1274#0" expanded="true" />
+                <element signature="e#1323#1324#0" expanded="true" />
+                <element signature="e#1443#1444#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,10 +121,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/arboles/ArbolN_ario.java" />
-        <option value="$PROJECT_DIR$/src/modelo/Sensor.java" />
         <option value="$PROJECT_DIR$/src/arboles/SplayTree.java" />
         <option value="$PROJECT_DIR$/src/arboles/NodoSplay.java" />
         <option value="$PROJECT_DIR$/src/JsonManager/AJasonManager.java" />
+        <option value="$PROJECT_DIR$/src/modelo/Sensor.java" />
       </list>
     </option>
   </component>
@@ -241,16 +252,15 @@
       <option name="presentableId" value="Default" />
       <updated>1570338025322</updated>
       <workItem from="1570338043222" duration="2838000" />
-      <workItem from="1570403031448" duration="2565000" />
+      <workItem from="1570403031448" duration="4808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5403000" />
+    <option name="totallyTimeSpent" value="7646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1208" y="-132" width="1216" height="1576" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24048443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -341,6 +351,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/JsonManager/locations_json_file">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/JsonManager/AJasonManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -351,13 +364,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JsonManager/locations_json_file">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/modelo/Sensor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1443#1444#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
