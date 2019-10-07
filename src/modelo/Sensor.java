@@ -2,7 +2,9 @@ package modelo;
 
 import java.util.Random;
 
-public class Sensor implements Comparable<Sensor>{
+import otros.IConstants;
+
+public class Sensor implements Comparable<Sensor>, IConstants{
 	private int ID;
 	private String canton;
 	private String distrito;
@@ -85,7 +87,8 @@ public class Sensor implements Comparable<Sensor>{
 	public void actualizar() {
 		Random random = new Random();
 		int porcentaje = (random.nextInt(21))-8;
-		setCm3Actual(porcentaje);
+		int variacion = (this.getCm3Actual()*porcentaje)/MAX_PERCENTAGE;
+		setCm3Actual(variacion);
 	}
 
 	@Override
