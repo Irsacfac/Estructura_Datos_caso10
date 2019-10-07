@@ -19,13 +19,17 @@ public class JsonManager {
             FileReader reader =
                     new FileReader(
                             "C:\\Users\\jguty\\OneDrive\\Documents\\GitHub\\Estructura_Datos_caso10\\src\\JsonManager\\locations_json_file");
-            JSONObject jsonObject = (JSONObject) parser.parse(reader);
-            System.out.println(jsonObject);
-            return jsonObject;
+            return (JSONObject) parser.parse(reader);
         } catch (IOException | ParseException ioException) {
             ioException.printStackTrace();
         }
         return null;
+    }
+
+    public JSONArray getCantons(){
+	    JSONObject AyAPlantLocations = parseJson();
+        JSONArray cantons = (JSONArray) AyAPlantLocations.get("Cantons");
+        return cantons;
     }
 }
 

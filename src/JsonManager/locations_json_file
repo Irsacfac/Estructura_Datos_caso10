@@ -4,11 +4,9 @@
      	"Cantons" :
 
      		[
-
-
-     		{ "Name" : "Acosta",
+     		{
+     		  "Name" : "Acosta",
      		  "Consumption" : 600,
-     		  
      		  "Districts" :
 
      		  	[
