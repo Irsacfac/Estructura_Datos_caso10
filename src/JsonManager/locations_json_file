@@ -17,7 +17,7 @@
 	     		  	{
 					  
 					  "Name" : "San Ignacio",
-		     		  "Consumption" 300: , 
+		     		  "Consumption": 300 ,
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -46,7 +46,7 @@
 	     		  	{
 					  
 					  "Name" : "Palmichal",
-		     		  "Consumption" 200: , 
+		     		  "Consumption" : 200,
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -74,7 +74,7 @@
 	     		  	{
 					  
 					  "Name" : "Guaitil",
-		     		  "Consumption" 100: , 
+		     		  "Consumption" : 100 ,
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -112,7 +112,7 @@
 	     		  	{
 					  
 					  "Name" : "Alajuelita",
-		     		  "Consumption" 300: , 
+		     		  "Consumption" :300 ,
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -140,7 +140,7 @@
 	     		  	{
 					  
 					  "Name" : "San Josecito",
-		     		  "Consumption" 200: , 
+		     		  "Consumption":200 ,
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -167,7 +167,7 @@
 	     		  	{
 					  
 					  "Name" : "San Antonio",
-		     		  "Consumption" 100: , 
+		     		  "Consumption" : 100 ,
 		      	    	  
 		     		  "Neighborhhoods" :
 		     		  	[
@@ -215,12 +215,12 @@
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Aserri2",
-		     		  			"Consumption" : "130"
+		     		  			"Consumption" : 130
 		     		  		}
 		     		  		,
 		     		  		{
 		     		  			"Name" : "Aserri3",
-		     		  			"Consumption" : "40"
+		     		  			"Consumption" : 40
 		     		  		}
 
 		     		  	]
