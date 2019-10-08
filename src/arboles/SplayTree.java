@@ -211,4 +211,7 @@ public class SplayTree<T> {
 			}
 		}
 	}
+	public NodoSplay<T> getRaiz(){
+		return raiz;
+	}
 }
