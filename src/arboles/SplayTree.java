@@ -65,59 +65,76 @@ public class SplayTree<T> {
 				if(comparado.compareTo(pLlave)<0) {
 					if(comparado.getHijoIzq()==null) {
 						comparado.setHijoIzq(pNodo);
+						pNodo.setPadre(comparado);
 						splay(pNodo);
-						break;
+						return;
 					}
-					comparado = comparado.getHijoIzq();
+					else {
+						comparado = comparado.getHijoIzq();
+					}
 				}else{
 					if(comparado.getHijoDer()==null) {
 						comparado.setHijoDer(pNodo);
+						pNodo.setPadre(comparado);
 						splay(pNodo);
-						break;
+						return;
 					}
 					comparado = comparado.getHijoDer();
 				}
 			}
-			
+			if(comparado.getHijoDer() != null && comparado.getHijoDer().compareTo(pLlave) == 0) {
+				comparado = comparado.getHijoDer();
+			}
+			while(comparado.getHijoIzq() != null) {
+				if(comparado.getHijoIzq().compareTo(pLlave) != 0) {
+					NodoSplay<T> pNodoIzquierdo = comparado.getHijoIzq();
+					pNodo.setPadre(comparado);
+					pNodo.setHijoIzq(pNodoIzquierdo);
+					pNodoIzquierdo.setPadre(pNodo);
+					splay(pNodo);
+					return;
+				}
+				comparado = comparado.getHijoIzq();
+				splay(pNodo);
+			}
+			comparado.setHijoIzq(comparado);
 		}
 	}
-	public boolean eliminar(NodoSplay<T> pNodo, Object pLlave) {
+	public boolean eliminar(NodoN_ario nodoEliminar, Object pLlave) {
+		return eliminar(nodoEliminar, raiz, pLlave);
+	}
+	
+	private boolean eliminar(NodoN_ario nodoEliminar, NodoSplay<T> pNodo, Object pLlave) {
 		boolean result = false;
 		if(pNodo == null) {
 			return result;
-		}
-		NodoSplay<T> nodoEliminar = pNodo;
-		if (nodoEliminar.getElemento() instanceof NodoN_ario) {
-			//NodoN_ario<T> nodo = (NodoN_ario<T>)elemento;
-			if(nodoEliminar.compareTo(pLlave) < 0) {
-				eliminar(nodoEliminar.getHijoIzq(), pLlave);
-			}else if(nodoEliminar.compareTo(pLlave) > 0) {
-				eliminar(nodoEliminar.getHijoDer(), pLlave);
-			}else {
-				Sensor current = (Sensor)nodoEliminar.getElemento();
-				if(current.getPath().compareTo(pLlave.toString()) == 0){
-					splay(nodoEliminar);
-					NodoSplay<T> hijoIzquierdo = nodoEliminar.getHijoIzq();
-					if(hijoIzquierdo != null) {
-						hijoIzquierdo.setPadre(null);
-						nodoEliminar.setHijoIzq(null);
-					}
-					NodoSplay<T> hijoDerecho = nodoEliminar.getHijoDer();
-					if(hijoDerecho != null) {
-						hijoDerecho.setPadre(null);
-						nodoEliminar.setHijoDer(null);
-					}
-					raiz = unir(nodoEliminar.getHijoIzq(), nodoEliminar.getHijoDer());
-					nodoEliminar = null;
-					return true;
+		}else if(pNodo.compareTo(pLlave) < 0) {
+			result = eliminar(nodoEliminar, pNodo.getHijoIzq(), pLlave);
+		}else if(pNodo.compareTo(pLlave) > 0) {
+			result = eliminar(nodoEliminar, pNodo.getHijoDer(), pLlave);
+		}else if(pNodo.compareTo(pLlave) == 0) {
+			if(pNodo.getElemento().equals(nodoEliminar)) {
+				splay(pNodo);
+				NodoSplay<T> hijoIzquierdo = pNodo.getHijoIzq();
+				NodoSplay<T> hijoDerecho = pNodo.getHijoDer();
+				if(hijoIzquierdo != null) {
+					hijoIzquierdo.setPadre(null);
+					pNodo.setHijoIzq(null);
 				}
-				result = eliminar(nodoEliminar.getHijoIzq(), pLlave);
-				if(!result) {
-					eliminar(nodoEliminar.getHijoDer(), pLlave);
+				if(hijoDerecho != null) {
+					hijoDerecho.setPadre(null);
+					pNodo.setHijoDer(null);
 				}
+				raiz = unir(hijoIzquierdo, hijoDerecho);
+				pNodo = null;
 			}
-			//result = current.getPath().toLowerCase().contains(pTextoBusqueda.toString().toLowerCase()) ? 0 : current.getPath().compareTo(pTextoBusqueda.toString());
-		}return result;
+			result = eliminar(nodoEliminar, pNodo.getHijoIzq(), pLlave);
+			if(!result) {
+				result = eliminar(nodoEliminar, pNodo.getHijoDer(), pLlave);
+			}
+		}
+		
+		return result;
 	}
 	
 	private NodoSplay<T> unir(NodoSplay<T> pNodoIzquierdo, NodoSplay<T> pNodoDerecho) {

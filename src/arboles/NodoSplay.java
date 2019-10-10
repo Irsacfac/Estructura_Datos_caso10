@@ -11,6 +11,7 @@ public class NodoSplay<T> implements Comparable {
 		elemento = pElemento;
 		hijoIzq = null;
 		hijoDer = null;
+		padre = null;
 	}
 	
 	public NodoSplay<T> getPadre(){
