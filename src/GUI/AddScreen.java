@@ -1,12 +1,23 @@
 package GUI;
 
+import javax.swing.*;
+import javax.swing.border.LineBorder;
+import java.awt.*;
+import java.util.ArrayList;
+
 public class AddScreen extends javax.swing.JFrame {
 
     /**
      * Creates new form AddScreen
      */
+
+    private ArrayList<JTextField> inputs;
+
     public AddScreen() {
         initComponents();
+        inputs = new ArrayList<>();
+        generateInputsArray();
+        this.setResizable(false);
     }
 
     /**
@@ -18,6 +29,7 @@ public class AddScreen extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">
     private void initComponents() {
 
+        defaultBorder = new LineBorder(Color.BLACK);
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         cantonLabel = new javax.swing.JLabel();
@@ -27,11 +39,17 @@ public class AddScreen extends javax.swing.JFrame {
         consumptionLabel = new javax.swing.JLabel();
         fatherLabel = new javax.swing.JLabel();
         cantonInput = new javax.swing.JTextField();
+        cantonInput.setBorder(defaultBorder);
         districtInput = new javax.swing.JTextField();
+        districtInput.setBorder(defaultBorder);
         IDInput = new javax.swing.JTextField();
+        IDInput.setBorder(defaultBorder);
         consumptionInput = new javax.swing.JTextField();
+        consumptionInput.setBorder(defaultBorder);
         neighbourhoodInput = new javax.swing.JTextField();
+        neighbourhoodInput.setBorder(defaultBorder);
         fatherInput = new javax.swing.JTextField();
+        fatherInput.setBorder(defaultBorder);
         jPanel1 = new javax.swing.JPanel();
         labelAddSensor = new javax.swing.JLabel();
         instructionsLabel = new javax.swing.JLabel();
@@ -173,11 +191,64 @@ public class AddScreen extends javax.swing.JFrame {
 
     private void addButtonActionPerformed(java.awt.event.ActionEvent evt) {
 
-
+        if (somethingEmpty()){
+            markEmptyInputs();
+        } else {
+            resetInputs();
+        }
 
     }
 
-    private void isSomethingEmpty()
+    private void resetInputs(){
+
+        for (JTextField input : inputs){
+            input.setText("");
+            input.setBorder(defaultBorder);
+        }
+
+    }
+
+    private boolean somethingEmpty(){
+        return isEmpty(cantonInput)
+                || isEmpty(IDInput)
+                || isEmpty(districtInput)
+                || isEmpty(neighbourhoodInput)
+                || isEmpty(consumptionInput)
+                || isEmpty(fatherInput);
+    }
+
+    private ArrayList<JTextField> emptyInputs(){
+        ArrayList<JTextField> emptyInputs = new ArrayList<>();
+        for (JTextField input:inputs){
+            if (isEmpty(input)){
+                emptyInputs.add(input);
+            }
+        }
+        return emptyInputs;
+    }
+
+    private void markEmptyInputs(){
+        ArrayList<JTextField> emptyInputs = emptyInputs();
+        javax.swing.border.LineBorder requiredBorder = new LineBorder(Color.RED);
+        for (JTextField input:emptyInputs){
+            input.setBorder(requiredBorder);
+        }
+    }
+
+    private boolean isEmpty(JTextField pTextField){
+        if (pTextField.getText().equals("")){
+            return true;
+        } else return false;
+    }
+
+    private void generateInputsArray(){
+        inputs.add(cantonInput);
+        inputs.add(IDInput);
+        inputs.add(districtInput);
+        inputs.add(neighbourhoodInput);
+        inputs.add(consumptionInput);
+        inputs.add(fatherInput);
+    }
 
     /**
      * @param args the command line arguments
@@ -233,5 +304,8 @@ public class AddScreen extends javax.swing.JFrame {
     private javax.swing.JLabel labelAddSensor;
     private javax.swing.JTextField neighbourhoodInput;
     private javax.swing.JLabel neighbourhoodLabel;
+    private LineBorder defaultBorder;
     // End of variables declaration
+
+
 }
