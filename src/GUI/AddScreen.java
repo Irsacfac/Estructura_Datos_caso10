@@ -229,11 +229,21 @@ public class AddScreen extends javax.swing.JFrame {
 
     private void markEmptyInputs(){
         ArrayList<JTextField> emptyInputs = emptyInputs();
-        javax.swing.border.LineBorder requiredBorder = new LineBorder(Color.RED);
+        javax.swing.border.LineBorder required = new LineBorder(Color.RED);
+        unmarkAlreadyEntered();
         for (JTextField input:emptyInputs){
-            input.setBorder(requiredBorder);
+            input.setBorder(required);
         }
     }
+
+    private void unmarkAlreadyEntered(){
+        for (JTextField input:inputs){
+            if (!(isEmpty(input))){
+                input.setBorder(defaultBorder);
+            }
+        }
+    }
+
 
     private boolean isEmpty(JTextField pTextField){
         if (pTextField.getText().equals("")){

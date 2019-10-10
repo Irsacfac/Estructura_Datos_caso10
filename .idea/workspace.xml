@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="989a363a-194a-4a00-9842-f7afda1e588c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/GUI/InfoDisplayPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/GUI/AddScreen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GUI/AddScreen$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/GUI/AddScreen$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GUI/AddScreen$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/GUI/AddScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GUI/AddScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/arboles/ArbolN_ario.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/arboles/ArbolN_ario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/arboles/SplayTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/arboles/SplayTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/AddScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/AddScreen.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,7 +104,7 @@
       <workItem from="1570403031448" duration="10879000" />
       <workItem from="1570572176261" duration="602000" />
       <workItem from="1570721559822" duration="1060000" />
-      <workItem from="1570725038807" duration="5046000" />
+      <workItem from="1570725038807" duration="9233000" />
     </task>
     <task id="LOCAL-00001" summary="Arregle los problemas de sintaxis, ya parsea bien el json.">
       <created>1570418549368</created>
