@@ -6,36 +6,43 @@ import javax.swing.*;
 
 public class InfoDisplayPanel extends JPanel {
 
-    private int ID;
+    public int ID;
     private String location;
     private int consumption;
     private String fatherID;
 
-    private JLabel IDDisplayLabel;
+    public JLabel IDDisplayLabel;
     private JLabel consumptionDisplayLabel;
     private JLabel fatherDisplayLabel;
     private JLabel locationDisplayLabel;
 
-    InfoDisplayPanel(Sensor pSensor, String pFatherID){
+    public InfoDisplayPanel(Sensor pSensor, String pFatherID){
+
+        initPanelComponents();
 
         ID = pSensor.getID();
         location = pSensor.getCanton()+"/"+pSensor.getDistrito()+"/"+pSensor.getBarrio();
         consumption = pSensor.getCm3Base();
         fatherID = pFatherID;
 
-        initPanelComponents();
+        setLabelsText();
 
     }
     private void setLabelsText(){
 
-        IDDisplayLabel.setText("ID:" + ID);
-        locationDisplayLabel.setText("Ubicación" + location);
-        consumptionDisplayLabel.setText("cm3/min" + consumption);
+        IDDisplayLabel.setText("ID: " + ID);
+        locationDisplayLabel.setText("Ubicación: " + location);
+        consumptionDisplayLabel.setText("cm3/min: " + consumption);
         fatherDisplayLabel.setText("Toma Padre:" + fatherID);
 
     }
     private void initPanelComponents(){
-        setLabelsText();
+
+        IDDisplayLabel = new JLabel();
+        consumptionDisplayLabel = new JLabel();
+        fatherDisplayLabel = new JLabel();
+        locationDisplayLabel = new JLabel();
+
         javax.swing.GroupLayout infoDisplayPanelLayout = new javax.swing.GroupLayout(this);
         this.setLayout(infoDisplayPanelLayout);
         infoDisplayPanelLayout.setHorizontalGroup(
