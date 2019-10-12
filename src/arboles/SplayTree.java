@@ -2,10 +2,6 @@ package arboles;
 
 import java.util.ArrayList;
 
-//import com.sun.org.apache.bcel.internal.generic.ArrayInstruction;
-
-import modelo.Sensor;
-
 public class SplayTree<T> {
 	private NodoSplay<T> raiz;
 	

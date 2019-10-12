@@ -13,7 +13,8 @@ public class ArbolN_ario <T> {
 		splayTree = new SplayTree<NodoN_ario<T>>();
 	}
 	
-	public void agregar(NodoN_ario<T> pNodo, NodoN_ario<T> pPadre, Object pLlave) {
+	public void agregar(T pElemento, NodoN_ario<T> pPadre, Object pLlave) {
+		NodoN_ario<T> pNodo = new NodoN_ario<T>(pElemento);
 		if(pNodo == null || pPadre == null) {
 			return;
 		}
