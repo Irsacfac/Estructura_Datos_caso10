@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="989a363a-194a-4a00-9842-f7afda1e588c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/GUI/SensorDisplayScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GUI/SensorDisplayScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/arboles/ArbolN_ario.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/arboles/ArbolN_ario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/arboles/NodoN_ario.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/arboles/NodoN_ario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/arboles/SplayTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/arboles/SplayTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/modelo/Sensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/modelo/Sensor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/TreeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/TreeExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/arboles/ArbolN_ario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arboles/ArbolN_ario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arboles/NodoN_ario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arboles/NodoN_ario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Sensor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +149,7 @@
       <workItem from="1570725038807" duration="18182000" />
       <workItem from="1570840207725" duration="2339000" />
       <workItem from="1570907671271" duration="49000" />
-      <workItem from="1570909473540" duration="19450000" />
+      <workItem from="1570909473540" duration="21222000" />
     </task>
     <task id="LOCAL-00001" summary="Arregle los problemas de sintaxis, ya parsea bien el json.">
       <created>1570418549368</created>

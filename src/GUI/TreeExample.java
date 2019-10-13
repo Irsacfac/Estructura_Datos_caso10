@@ -38,7 +38,7 @@ class RemoveNodes{
                 String nodeName = JOptionPane.showInputDialog(null, "Enter the node name  which have to be deleted from tree:");
 
                 if(nodeName.equals("")){
-                    JOptionPane.showMessageDialog(null, "Node could not be  deleted from tree!");
+             ti        JOptionPane.showMessageDialog(null, "Node could not be  deleted from tree!");
 
                 }
                 else{

@@ -20,12 +20,14 @@ public class ArbolN_ario <T> {
 	}
 	
 	public void agregar(T pElemento, NodoN_ario<T> pPadre, Object pLlave) {
+
 		if((pElemento == null) || (pPadre == null && raiz != null) || (pLlave == null)) {
 			return;
 		}
-		NodoN_ario<T> pNodo = new NodoN_ario<T>(pElemento);
+
+		NodoN_ario<T> nodo = new NodoN_ario<T>(pElemento);
 		if(raiz == null) {
-			raiz = pNodo;
+			raiz = nodo;
 			return;
 		}
 
@@ -66,9 +68,6 @@ public class ArbolN_ario <T> {
 	}
 	
 	public NodoN_ario<T> getRaiz(){
-		return raiz;
-	}
-	public NodoN_ario<T> getRaiz() {
 		return raiz;
 	}
 
