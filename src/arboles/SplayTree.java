@@ -20,9 +20,9 @@ public class SplayTree<T> {
 				comparado = comparado.getHijoDer();
 			}else {
 				matches.add(comparado.getElemento());
+				splay(comparado);
 				otrosMatch(comparado.getHijoIzq(), matches, pLlave);
 				otrosMatch(comparado.getHijoDer(), matches, pLlave);
-				splay(comparado);
 				return matches;
 			}
 		}
@@ -34,9 +34,9 @@ public class SplayTree<T> {
 			return;
 		}else if(pNodo.compareTo(pLlave)==0) {
 			listMatches.add(pNodo.getElemento());
+			splay(pNodo);
 			otrosMatch(pNodo.getHijoIzq(), listMatches, pLlave);
 			otrosMatch(pNodo.getHijoDer(), listMatches, pLlave);
-			splay(pNodo);
 		}else {
 			return;
 		}
@@ -80,20 +80,27 @@ public class SplayTree<T> {
 			}
 			if(comparado.getHijoDer() != null && comparado.getHijoDer().compareTo(pLlave) == 0) {
 				comparado = comparado.getHijoDer();
-			}
-			while(comparado.getHijoIzq() != null) {
-				if(comparado.getHijoIzq().compareTo(pLlave) != 0) {
-					NodoSplay<T> pNodoIzquierdo = comparado.getHijoIzq();
-					pNodo.setPadre(comparado);
-					pNodo.setHijoIzq(pNodoIzquierdo);
-					pNodoIzquierdo.setPadre(pNodo);
-					splay(pNodo);
-					return;
+				while(comparado.getHijoIzq() != null) {
+					if(comparado.getHijoIzq().compareTo(pLlave) != 0) {
+						NodoSplay<T> pNodoIzquierdo = comparado.getHijoIzq();
+						pNodo.setPadre(comparado);
+						pNodo.setHijoIzq(pNodoIzquierdo);
+						pNodoIzquierdo.setPadre(pNodo);
+						splay(pNodo);
+						return;
+					}
+					comparado = comparado.getHijoIzq();
 				}
-				comparado = comparado.getHijoIzq();
+				comparado.setHijoIzq(pNodo);
+				pNodo.setPadre(comparado);
+				splay(pNodo);
+			}else {
+				NodoSplay<T> pNodoDerecho = comparado.getHijoDer();
+				pNodo.setPadre(comparado);
+				pNodo.setHijoDer(pNodoDerecho);
+				pNodoDerecho.setPadre(pNodo);
 				splay(pNodo);
 			}
-			comparado.setHijoIzq(comparado);
 		}
 	}
 	public boolean eliminar(NodoN_ario nodoEliminar, Object pLlave) {
@@ -123,13 +130,13 @@ public class SplayTree<T> {
 				}
 				raiz = unir(hijoIzquierdo, hijoDerecho);
 				pNodo = null;
+				return true;
 			}
 			result = eliminar(nodoEliminar, pNodo.getHijoIzq(), pLlave);
 			if(!result) {
 				result = eliminar(nodoEliminar, pNodo.getHijoDer(), pLlave);
 			}
 		}
-		
 		return result;
 	}
 	
@@ -145,6 +152,16 @@ public class SplayTree<T> {
 		nuevaRaiz.setHijoDer(pNodoDerecho);
 		pNodoDerecho.setPadre(nuevaRaiz);
 		return nuevaRaiz;
+	}
+	
+	public void contenido(ArrayList<T> pArray, NodoSplay<T> pNodo){
+		if(pNodo.getHijoIzq() != null) {
+			contenido(pArray, pNodo.getHijoIzq());
+		}
+		pArray.add(pNodo.getElemento());
+		if(pNodo.getHijoDer() != null) {
+			contenido(pArray, pNodo.getHijoDer());
+		}
 	}
 	
 	private NodoSplay<T> maximum(NodoSplay<T> pNodo) {
@@ -164,7 +181,7 @@ public class SplayTree<T> {
 		izquierdo.setPadre(pNodo.getPadre());
 		if (pNodo.getPadre() == null) {
 			this.raiz = izquierdo;
-		} else if (pNodo == pNodo.getPadre().getHijoIzq()) {
+		} if (pNodo == pNodo.getPadre().getHijoIzq()) {
 			pNodo.getPadre().setHijoIzq(izquierdo);
 		} else {
 			pNodo.getPadre().setHijoDer(izquierdo);
