@@ -92,6 +92,11 @@ public class Sensor implements Comparable<Sensor>, IConstants{
 	}
 
 	@Override
+	public String toString() {
+		return ID+"";
+	}
+
+	@Override
 	public int compareTo(Sensor pSensor) {
 		// TODO Auto-generated method stub
 		int result = this.canton.compareTo(pSensor.getCanton());
