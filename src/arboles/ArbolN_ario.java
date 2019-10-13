@@ -20,10 +20,12 @@ public class ArbolN_ario <T> {
 	}
 	
 	public void agregar(T pElemento, NodoN_ario<T> pPadre, Object pLlave) {
-
-		NodoN_ario<T> nodo = new NodoN_ario<T>(pElemento);
-
-		if(pPadre == null) {
+		if((pElemento == null) || (pPadre == null && raiz != null) || (pLlave == null)) {
+			return;
+		}
+		NodoN_ario<T> pNodo = new NodoN_ario<T>(pElemento);
+		if(raiz == null) {
+			raiz = pNodo;
 			return;
 		}
 
@@ -52,9 +54,19 @@ public class ArbolN_ario <T> {
 		}
 	}
 	
-	public NodoN_ario<T> buscar(Object pLlave){
-		splayTree.buscar(pLlave);
-		return null;
+	public ArrayList<NodoN_ario<T>> buscar(Object pLlave){
+		ArrayList<NodoN_ario<T>> miArray = splayTree.buscar(pLlave);
+		return miArray;
+	}
+	
+	public ArrayList<NodoN_ario<T>> contenido(){
+		ArrayList<NodoN_ario<T>> miArray = new ArrayList<NodoN_ario<T>>();
+		splayTree.contenido(miArray, splayTree.getRaiz());
+		return miArray;
+	}
+	
+	public NodoN_ario<T> getRaiz(){
+		return raiz;
 	}
 	public NodoN_ario<T> getRaiz() {
 		return raiz;

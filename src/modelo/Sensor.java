@@ -5,32 +5,35 @@ import java.util.Random;
 import otros.IConstants;
 
 public class Sensor implements Comparable<Sensor>, IConstants{
-	private int ID;
+	private String ID;
 	private String canton;
 	private String distrito;
 	private String barrio;
-	private int color;
-	private int cm3Base;
+	private int color;  //Azul: 0, Rojo: 1
+	private final int cm3Base;
 	private int cm3Actual;
 	
-	public Sensor(int pID, String pCanton){
+	public Sensor(String pID, String pCanton, int pCm3Base){
 		ID = pID;
 		canton = pCanton;
 		distrito = "";
 		barrio = "";
+		cm3Base = pCm3Base;
+		cm3Actual = pCm3Base;
+		color = 0;
 	}
-	public Sensor(int pID, String pCanton, String pDistrito ){
+	/*public Sensor(String pID, String pCanton, String pDistrito ){
 		ID = pID;
 		canton = pCanton;
 		distrito = pDistrito;
 		barrio = "";
 	}
-	public Sensor(int pID, String pCanton, String pDistrito, String pBarrio ){
+	public Sensor(String pID, String pCanton, String pDistrito, String pBarrio ){
 		ID = pID;
 		canton = pCanton;
 		distrito = pDistrito;
 		barrio = pBarrio;
-	}
+	}*/
 
 	public String getDistrito() {
 		return distrito;
@@ -60,9 +63,9 @@ public class Sensor implements Comparable<Sensor>, IConstants{
 		return cm3Base;
 	}
 
-	public void setCm3Base(int pCm3Base) {
+	/*public void setCm3Base(int pCm3Base) {
 		this.cm3Base += pCm3Base;
-	}
+	}*/
 
 	public int getCm3Actual() {
 		return cm3Actual;
@@ -72,7 +75,7 @@ public class Sensor implements Comparable<Sensor>, IConstants{
 		this.cm3Actual = pCm3Actual;
 	}
 
-	public int getID() {
+	public String getID() {
 		return ID;
 	}
 
