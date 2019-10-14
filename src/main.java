@@ -10,7 +10,7 @@ public class main {
         //JsonManager jsonManager = new JsonManager();
         //jsonManager.getCantons();
 
-        Sensor s1 = new Sensor(12, "hola", "holaa", "holaaa");
+        Sensor s1 = new Sensor("12", "hola", 52);
         InfoDisplayPanel panel = new InfoDisplayPanel(s1, "adios");
         InfoDisplayPanel panel2 = new InfoDisplayPanel(s1, "adiosss");
         ArrayList<InfoDisplayPanel> array = new ArrayList<>();

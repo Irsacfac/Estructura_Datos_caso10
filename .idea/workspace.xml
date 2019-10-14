@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="989a363a-194a-4a00-9842-f7afda1e588c" name="Default Changelist" comment="">
+    <list default="true" id="989a363a-194a-4a00-9842-f7afda1e588c" name="Default Changelist" comment="Arregle los problemas de sintaxis, ya parsea bien el json.">
+      <change afterPath="$PROJECT_DIR$/src/GUI/MainScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/TreeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/TreeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/GUI/InfoDisplayPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/GUI/InfoDisplayPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/JsonManager/JsonManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/JsonManager/JsonManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/arboles/ArbolN_ario.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/arboles/ArbolN_ario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/arboles/SplayTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/arboles/SplayTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/modelo/Sensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/modelo/Sensor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/InfoDisplayPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/InfoDisplayPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JsonManager/JsonManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JsonManager/JsonManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arboles/ArbolN_ario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arboles/ArbolN_ario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controlador/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlador/Controlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/otros/IConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/otros/IConstants.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +52,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -63,9 +73,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveNodes">
-    <configuration name="AddScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GUI.AddScreen" />
+  <component name="RunManager" selected="Application.MainScreen">
+    <configuration name="MainScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.MainScreen" />
       <module name="caso10" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainScreen" />
         <item itemvalue="Application.RemoveNodes" />
         <item itemvalue="Application.TreeExample" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.SensorDisplayScreen" />
-        <item itemvalue="Application.AddScreen" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +160,9 @@
       <workItem from="1570725038807" duration="18182000" />
       <workItem from="1570840207725" duration="2339000" />
       <workItem from="1570907671271" duration="49000" />
-      <workItem from="1570909473540" duration="27786000" />
+      <workItem from="1570909473540" duration="28380000" />
+      <workItem from="1571070160817" duration="29000" />
+      <workItem from="1571073392582" duration="6438000" />
     </task>
     <task id="LOCAL-00001" summary="Arregle los problemas de sintaxis, ya parsea bien el json.">
       <created>1570418549368</created>
@@ -181,77 +193,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Arregle los problemas de sintaxis, ya parsea bien el json." />
     <option name="LAST_COMMIT_MESSAGE" value="Arregle los problemas de sintaxis, ya parsea bien el json." />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>json-simple-1.1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

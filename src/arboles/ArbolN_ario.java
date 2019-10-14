@@ -47,12 +47,17 @@ public class ArbolN_ario <T> {
 			ArrayList<NodoN_ario<T>> hijos = pNodoEliminar.getHijos();
 			NodoN_ario<T> padre = pNodoEliminar.getPadre();
 			while(!hijos.isEmpty()) {
+
 				padre.addHijos(hijos.get(0));
+
 				hijos.get(0).setPadre(padre);
+
 				hijos.remove(0);
+
 			}
 			padre.getHijos().remove(pNodoEliminar);
 			pNodoEliminar = null;
+
 		}
 	}
 	
@@ -69,6 +74,10 @@ public class ArbolN_ario <T> {
 	
 	public NodoN_ario<T> getRaiz(){
 		return raiz;
+	}
+
+	public JTree getGraphic(){
+		return graphic;
 	}
 
 

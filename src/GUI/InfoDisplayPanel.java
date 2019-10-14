@@ -6,7 +6,7 @@ import javax.swing.*;
 
 public class InfoDisplayPanel extends JPanel {
 
-    public int ID;
+    public String ID;
     private String location;
     private int consumption;
     private String fatherID;

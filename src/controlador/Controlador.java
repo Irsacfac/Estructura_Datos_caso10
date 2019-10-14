@@ -12,8 +12,12 @@ public class Controlador extends Thread implements IConstants{
 	private ArbolN_ario<Sensor> miArbol;
 	private int cm3Total;
 	private JsonManager jsonManager;
-	
-	Controlador(){
+
+	public ArbolN_ario<Sensor> getMiArbol() {
+		return miArbol;
+	}
+
+	public Controlador(){
 		jsonManager = new JsonManager();
 		Sensor tomaPrincipal = new Sensor("0", jsonManager.getPlantName(), jsonManager.getPlantCapacity());
 		NodoN_ario<Sensor> root = new NodoN_ario<Sensor>(tomaPrincipal);
