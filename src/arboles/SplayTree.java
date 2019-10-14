@@ -42,7 +42,11 @@ public class SplayTree<T> {
 		}
 	}
 	
-	public void agregar(NodoSplay<T> pNodo, Object pLlave) {
+	public void agregar(T pElemento, Object pLlave) {
+		if(pElemento == null) {
+			return;
+		}
+		NodoSplay<T> pNodo = new NodoSplay<T>(pElemento);
 		if(raiz==null) {
 			raiz = pNodo;
 		}else if(raiz.getHijoIzq() == null && raiz.compareTo(pLlave)<0){
@@ -103,11 +107,11 @@ public class SplayTree<T> {
 			}
 		}
 	}
-	public boolean eliminar(NodoN_ario nodoEliminar, Object pLlave) {
+	public boolean eliminar(T nodoEliminar, Object pLlave) {
 		return eliminar(nodoEliminar, raiz, pLlave);
 	}
 	
-	private boolean eliminar(NodoN_ario nodoEliminar, NodoSplay<T> pNodo, Object pLlave) {
+	private boolean eliminar(T nodoEliminar, NodoSplay<T> pNodo, Object pLlave) {
 		boolean result = false;
 		if(pNodo == null) {
 			return result;
@@ -181,7 +185,7 @@ public class SplayTree<T> {
 		izquierdo.setPadre(pNodo.getPadre());
 		if (pNodo.getPadre() == null) {
 			this.raiz = izquierdo;
-		} if (pNodo == pNodo.getPadre().getHijoIzq()) {
+		} else if (pNodo == pNodo.getPadre().getHijoIzq()) {
 			pNodo.getPadre().setHijoIzq(izquierdo);
 		} else {
 			pNodo.getPadre().setHijoDer(izquierdo);
