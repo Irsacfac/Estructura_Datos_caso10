@@ -4,7 +4,8 @@
     <list default="true" id="989a363a-194a-4a00-9842-f7afda1e588c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/TreeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/TreeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arboles/ArbolN_ario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arboles/ArbolN_ario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JsonManager/JsonManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JsonManager/JsonManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controlador/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlador/Controlador.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +150,7 @@
       <workItem from="1570725038807" duration="18182000" />
       <workItem from="1570840207725" duration="2339000" />
       <workItem from="1570907671271" duration="49000" />
-      <workItem from="1570909473540" duration="21222000" />
+      <workItem from="1570909473540" duration="27786000" />
     </task>
     <task id="LOCAL-00001" summary="Arregle los problemas de sintaxis, ya parsea bien el json.">
       <created>1570418549368</created>

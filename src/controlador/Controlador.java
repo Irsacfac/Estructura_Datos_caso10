@@ -2,6 +2,7 @@ package controlador;
 
 import java.util.ArrayList;
 
+import JsonManager.JsonManager;
 import arboles.ArbolN_ario;
 import arboles.NodoN_ario;
 import modelo.Sensor;
@@ -10,9 +11,13 @@ import otros.IConstants;
 public class Controlador extends Thread implements IConstants{
 	private ArbolN_ario<Sensor> miArbol;
 	private int cm3Total;
+	private JsonManager jsonManager;
 	
 	Controlador(){
-		miArbol = new ArbolN_ario<Sensor>();
+		jsonManager = new JsonManager();
+		Sensor tomaPrincipal = new Sensor("0", jsonManager.getPlantName(), jsonManager.getPlantCapacity());
+		NodoN_ario<Sensor> root = new NodoN_ario<Sensor>(tomaPrincipal);
+		miArbol = new ArbolN_ario<Sensor>(root);
 		cm3Total = miArbol.getRaiz().getElemento().getCm3Actual();
 	}
 	
