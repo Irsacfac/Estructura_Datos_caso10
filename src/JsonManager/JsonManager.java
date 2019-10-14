@@ -94,7 +94,7 @@ public class JsonManager {
     }
     public int getPlantCapacity(){
         JSONObject AyAPlantLocations = parseJson();
-        return (int)AyAPlantLocations.get("Capacity");
+        return (int)(long)AyAPlantLocations.get("Capacity");
     }
 
     public boolean cantonExists(String pName){

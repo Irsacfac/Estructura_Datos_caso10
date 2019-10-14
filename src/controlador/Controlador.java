@@ -12,6 +12,11 @@ public class Controlador extends Thread implements IConstants{
 	private ArbolN_ario<Sensor> miArbol;
 	private int cm3Total;
 	private JsonManager jsonManager;
+
+	public ArbolN_ario<Sensor> getMiArbol() {
+		return miArbol;
+	}
+
 	private boolean isRunning;
 	
 	public Controlador(){
