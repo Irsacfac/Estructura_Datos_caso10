@@ -72,7 +72,7 @@ public class Sensor implements Comparable<Sensor>, IConstants{
 	}
 
 	public void setCm3Actual(int pCm3Actual) {
-		this.cm3Actual = pCm3Actual;
+		this.cm3Actual += pCm3Actual;
 	}
 
 	public String getID() {

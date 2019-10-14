@@ -3,7 +3,6 @@ package arboles;
 import java.util.ArrayList;
 
 import modelo.Sensor;
-
 import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;
 
@@ -19,9 +18,18 @@ public class ArbolN_ario <T> {
 		graphic = new JTree(pRaiz.getNodeGraphic());
 	}
 	
-	public void agregar(T pElemento, NodoN_ario<T> pPadre, Object pLlave) {
 
-		if((pElemento == null) || (pPadre == null && raiz != null) || (pLlave == null)) {
+	public ArbolN_ario() {
+		// TODO Auto-generated constructor stub
+		raiz = null;
+		splayTree = new SplayTree<NodoN_ario<T>>();
+		//graphic = new JTree(pRaiz.getNodeGraphic());
+	}
+
+
+	public void agregar(T pElemento, NodoN_ario<T> pPadre, Object pLlave) {
+		if((pElemento == null) || (pPadre == null && raiz != null) || (pLlave == null
+				&& raiz != null)) {
 			return;
 		}
 
@@ -31,13 +39,13 @@ public class ArbolN_ario <T> {
 			return;
 		}
 
-		NodoSplay<NodoN_ario<T>> miNodoSplay = new NodoSplay<NodoN_ario<T>>(nodo);
-		splayTree.agregar(miNodoSplay, pLlave);
+		//NodoSplay<NodoN_ario<T>> miNodoSplay = new NodoSplay<NodoN_ario<T>>(pNodo);
+		splayTree.agregar(pNodo, pLlave);
 
-		nodo.setPadre(pPadre);
-		pPadre.addHijos(nodo);
+		pNodo.setPadre(pPadre);
+		pPadre.addHijos(pNodo);
 
-		pPadre.getNodeGraphic().add(nodo.getNodeGraphic());
+		pPadre.getNodeGraphic().add(pNodo.getNodeGraphic());
 
 	}
 	
@@ -70,7 +78,5 @@ public class ArbolN_ario <T> {
 	public NodoN_ario<T> getRaiz(){
 		return raiz;
 	}
-
-
 
 }
