@@ -40,11 +40,12 @@ public class Controlador extends Thread implements IConstants{
 			System.out.println("cm3 Planta: " + miArbol.getRaiz().getElemento().getCm3Actual());
 			int cm3Actual = 0;
 			Sensor actual;
-			ArrayList<NodoN_ario<Sensor>> sensores = miArbol.contenido();
+			ArrayList<NodoN_ario<Sensor>> sensores =  new ArrayList<>();// = miArbol.contenido();
+			sensores.addAll(miArbol.getRaiz().getHijos());
 			/*
 			 * hay que modificar
 			 * */
-			for(int cantidad = 0; cantidad < sensores.size(); cantidad++) {
+			/*for(int cantidad = 0; cantidad < sensores.size(); cantidad++) {
 				actual = sensores.get(cantidad).getElemento();
 				actual.actualizar();
 				System.out.println(actual.getID() + ": " + actual.getCm3Actual());
@@ -54,6 +55,21 @@ public class Controlador extends Thread implements IConstants{
 				}else {
 					actual.setColor(0);
 				}
+			}*/
+			while(sensores.size()!=0) {
+				actual = sensores.get(0).getElemento();
+				actual.actualizar();
+				if(sensores.get(0).getHijos().size() != 0) {
+					sensores.addAll(sensores.get(0).getHijos());
+				}
+				System.out.println(actual.getID() + ": " + actual.getCm3Actual());
+				cm3Actual += actual.getCm3Actual();
+				if(cm3Actual>cm3Total) {
+					actual.setColor(1);
+				}else {
+					actual.setColor(0);
+				}
+				sensores.remove(0);
 			}
 			System.out.println("cm3 Actual: " + cm3Actual);
 			//contador++;
