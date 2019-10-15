@@ -37,8 +37,6 @@ public class ArbolN_ario <T> {
 	}
 
 	public void agregar(T pElemento, NodoN_ario<T> pPadre, Object pLlave) {
-		System.out.println(pPadre==null);
-
 		if((pElemento == null) || (pPadre == null && raiz != null) || (pLlave == null
 				&& raiz != null)) {
 			return;

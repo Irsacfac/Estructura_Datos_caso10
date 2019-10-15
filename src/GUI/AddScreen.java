@@ -200,7 +200,6 @@ public class AddScreen extends javax.swing.JFrame {
         tree.agregar(newSensor.getElemento(), newSensor.getPadre(), newSensor.getElemento().getPath());
 
     }
-
     private Sensor createSensor(){
 
         String ID = IDInput.getText();
@@ -218,33 +217,28 @@ public class AddScreen extends javax.swing.JFrame {
         return sensor;
 
     }
-
     private int getConsumptionByName(String pCanton, String pDistrict, String pNeighborhood) {
         if (!pNeighborhood.equals("")) return jsonManager.getConsumptionByName(pNeighborhood);
         if (!pDistrict.equals("")) return jsonManager.getConsumptionByName(pDistrict);
         return jsonManager.getConsumptionByName(pCanton);
     }
-
     private NodoN_ario<Sensor> getNodeByID(String pID){
         for (NodoN_ario<Sensor> nodo : tree.getNodosActivos()){
             if(nodo.getElemento().getID().equals(pID)) return nodo;
         }
         return null;
     }
-
     private void resetInputs(){
         for (JTextField input : inputs){
             input.setText("");
             input.setBorder(defaultBorder);
         }
     }
-
     private boolean somethingEmpty(){
         return isEmpty(cantonInput)
                 || isEmpty(IDInput)
                 || isEmpty(fatherInput);
     }
-
     private ArrayList<JTextField> emptyInputs(){
         ArrayList<JTextField> emptyInputs = new ArrayList<>();
         for (JTextField input:inputs){
@@ -254,7 +248,6 @@ public class AddScreen extends javax.swing.JFrame {
         }
         return emptyInputs;
     }
-
     private void markEmptyInputs(){
         ArrayList<JTextField> emptyInputs = emptyInputs();
         javax.swing.border.LineBorder required = new LineBorder(Color.RED);
@@ -263,7 +256,6 @@ public class AddScreen extends javax.swing.JFrame {
             input.setBorder(required);
         }
     }
-
     private void unmarkAlreadyEntered(){
         for (JTextField input:inputs){
             if (!(isEmpty(input))){
@@ -271,14 +263,11 @@ public class AddScreen extends javax.swing.JFrame {
             }
         }
     }
-
-
     private boolean isEmpty(JTextField pTextField){
         if (pTextField.getText().equals("")){
             return true;
         } else return false;
     }
-
     private void generateInputsArray(){
         inputs.add(cantonInput);
         inputs.add(IDInput);

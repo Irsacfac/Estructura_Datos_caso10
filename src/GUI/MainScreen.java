@@ -2,12 +2,17 @@ package GUI;
 
 
 import arboles.ArbolN_ario;
+import arboles.NodoN_ario;
 import controlador.Controlador;
 import modelo.Sensor;
 import otros.IConstants;
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;
+import javax.swing.text.Position;
+import javax.swing.tree.DefaultTreeModel;
+import javax.swing.tree.MutableTreeNode;
+import javax.swing.tree.TreePath;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -35,12 +40,8 @@ public class MainScreen extends JFrame implements IConstants {
         btnDelete.setText("Eliminar");
         btnDelete.setBounds(BUTTON_POS_X,BUTTON_POS_Y,BUTTON_WIDTH, BUTTON_HEIGHT);
         btnAdd.setBounds(BUTTON_POS_X, BUTTON_POS_Y+(BUTTON_HEIGHT+5), BUTTON_WIDTH, BUTTON_HEIGHT);
-        btnAdd.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent event) {
-                buttonAddActionPerformed(event);
-            }
-        });
+        btnAdd.addActionListener(this::buttonAddActionPerformed);
+        btnDelete.addActionListener(this::buttonDeleteActionPerformed);
         treeRepresentation.setBorder(new LineBorder(Color.BLACK));
         treeRepresentation.setBounds(0,0,200,500);
 
@@ -58,10 +59,30 @@ public class MainScreen extends JFrame implements IConstants {
         this.dispose();
     }
 
+
     private void buttonDeleteActionPerformed(ActionEvent event){
 
-    }
 
+        String errorMessage = "ERROR: ID no existe";
+        DefaultTreeModel model = (DefaultTreeModel)treeRepresentation.getModel();
+        String ID = JOptionPane.showInputDialog(null, "Ingrese el ID del sensor a eliminar");
+        String nodeName = controller.getNodeByID(ID);
+        System.out.println(nodeName);
+
+        if (nodeName.equals(errorMessage)){
+            JOptionPane.showMessageDialog(null, errorMessage, "ERROR",
+                    JOptionPane.ERROR_MESSAGE);
+        }
+        else{
+            TreePath path = treeRepresentation.getNextMatch(nodeName, 0, Position.Bias.Forward);
+            System.out.println(path == null);
+            MutableTreeNode mNode = (MutableTreeNode)path.getLastPathComponent();
+            model.removeNodeFromParent(mNode);
+        }
+
+
+
+    }
 
     // Variables declaration - do not modify
     private javax.swing.JButton btnAdd;

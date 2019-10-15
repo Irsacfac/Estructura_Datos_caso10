@@ -4,17 +4,11 @@
     <list default="true" id="989a363a-194a-4a00-9842-f7afda1e588c" name="Default Changelist" comment="Arregle los problemas de sintaxis, ya parsea bien el json.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/arboles/ArbolN_ario.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/arboles/ArbolN_ario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/arboles/SplayTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/arboles/SplayTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/controlador/Controlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/controlador/Controlador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/modelo/Sensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/modelo/Sensor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/otros/IConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/otros/IConstants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/AddScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/AddScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/MainScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/arboles/ArbolN_ario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arboles/ArbolN_ario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Sensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/otros/IConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/otros/IConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controlador/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlador/Controlador.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,10 +129,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.main" />
+        <item itemvalue="Application.RemoveNodes" />
         <item itemvalue="Application.MainScreen" />
         <item itemvalue="Application.OpeningWindow" />
         <item itemvalue="Application.AddScreen" />
-        <item itemvalue="Application.RemoveNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +155,7 @@
       <workItem from="1570907671271" duration="49000" />
       <workItem from="1570909473540" duration="28380000" />
       <workItem from="1571070160817" duration="29000" />
-      <workItem from="1571073392582" duration="21831000" />
+      <workItem from="1571073392582" duration="31746000" />
     </task>
     <task id="LOCAL-00001" summary="Arregle los problemas de sintaxis, ya parsea bien el json.">
       <created>1570418549368</created>
@@ -192,19 +186,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Arregle los problemas de sintaxis, ya parsea bien el json." />
     <option name="LAST_COMMIT_MESSAGE" value="Arregle los problemas de sintaxis, ya parsea bien el json." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/GUI/AddScreen.java</url>
-          <line>221</line>
-          <properties class="GUI.AddScreen" method="getConsumptionByName">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
