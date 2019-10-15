@@ -30,13 +30,13 @@ public class SplayTree<T> {
 		
 	}
 	private void otrosMatch(NodoSplay<T> pNodo, ArrayList<T> listMatches, Object pLlave) {
-		if(pNodo == null) {
+		if(pNodo == null || pLlave == null) {
 			return;
 		}else if(pNodo.compareTo(pLlave)==0) {
 			listMatches.add(pNodo.getElemento());
-			splay(pNodo);
 			otrosMatch(pNodo.getHijoIzq(), listMatches, pLlave);
 			otrosMatch(pNodo.getHijoDer(), listMatches, pLlave);
+			splay(pNodo);
 		}else {
 			return;
 		}
