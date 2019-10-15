@@ -82,7 +82,7 @@ public class Sensor implements Comparable<Sensor>, IConstants{
 	public String getCanton() {
 		return canton;
 	}
-	
+
 	public String getPath() {
 		return String.format("%1$s/%2$s/%3$s", this.getCanton(), getDistrito(), getBarrio());
 	}
@@ -96,7 +96,17 @@ public class Sensor implements Comparable<Sensor>, IConstants{
 
 	@Override
 	public String toString() {
-		return ID+"";
+		String string = ID+", ";
+		if (!this.canton.equals("")){
+			string += canton;
+		}
+		if (!this.distrito.equals("")){
+			string += "/"+distrito;
+		}
+		if (!this.barrio.equals("")){
+			string += "/"+barrio;
+		}
+		return string;
 	}
 
 	@Override

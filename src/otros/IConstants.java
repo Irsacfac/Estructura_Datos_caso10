@@ -7,7 +7,7 @@ public interface IConstants {
 	public static int BUTTON_WIDTH = 200;
 	public static int BUTTON_HEIGHT = 50;
 	public static int BUTTON_POS_X = 250;
-	public static int BUTTON_POS_Y = 10;
+	public static int BUTTON_POS_Y = 25;
 	public static int WINDOW_HEIGHT = 500;
 	public static int WINDOW_WIDTH = 500;
 	public static boolean WINDOW_RESIZEABLE = false;

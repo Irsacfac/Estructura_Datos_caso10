@@ -7,11 +7,16 @@ import modelo.Sensor;
 import otros.IConstants;
 
 import javax.swing.*;
+import javax.swing.border.LineBorder;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class MainScreen extends JFrame implements IConstants {
 
 
-    public MainScreen() {
+    public MainScreen(Controlador pController) {
+        controller = pController;
         initComponents();
     }
 
@@ -22,55 +27,41 @@ public class MainScreen extends JFrame implements IConstants {
          this.setLayout(null);
         btnAdd = new javax.swing.JButton();
         btnDelete = new javax.swing.JButton();
-        controller = new Controlador();
-        treeRepresentation = controller.getMiArbol().getGraphic();
+
+        treeRepresentation = new JTree(controller.getMiArbol().getRaiz().getNodeGraphic());
         tree = controller.getMiArbol();
 
         btnAdd.setText("Agregar");
         btnDelete.setText("Eliminar");
         btnDelete.setBounds(BUTTON_POS_X,BUTTON_POS_Y,BUTTON_WIDTH, BUTTON_HEIGHT);
         btnAdd.setBounds(BUTTON_POS_X, BUTTON_POS_Y+(BUTTON_HEIGHT+5), BUTTON_WIDTH, BUTTON_HEIGHT);
+        btnAdd.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent event) {
+                buttonAddActionPerformed(event);
+            }
+        });
+        treeRepresentation.setBorder(new LineBorder(Color.BLACK));
+        treeRepresentation.setBounds(0,0,200,500);
 
         add(btnDelete);
         add(btnAdd);
+        add(treeRepresentation);
 
         this.setSize(WINDOW_WIDTH,WINDOW_HEIGHT);
+        this.setResizable(WINDOW_RESIZEABLE);
 
     }
 
-    private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {
+    private void buttonAddActionPerformed(ActionEvent event){
+        new AddScreen(controller).setVisible(true);
+        this.dispose();
+    }
 
-
+    private void buttonDeleteActionPerformed(ActionEvent event){
 
     }
 
-    public static void main(String args[]) {
-
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MainScreen.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MainScreen.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MainScreen.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MainScreen.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new MainScreen().setVisible(true);
-            }
-        });
-    }
 
     // Variables declaration - do not modify
     private javax.swing.JButton btnAdd;

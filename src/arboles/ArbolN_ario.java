@@ -9,13 +9,19 @@ import javax.swing.tree.DefaultMutableTreeNode;
 public class ArbolN_ario <T> {
 	private NodoN_ario<T> raiz;
 	private SplayTree<NodoN_ario<T>> splayTree;
-	private JTree graphic;
+	private ArrayList<NodoN_ario<T>> nodosActivos;
 
+	public SplayTree<NodoN_ario<T>> getSplayTree() {
+		return splayTree;
+	}
 
 	public ArbolN_ario(NodoN_ario<T> pRaiz) {
+
 		raiz = pRaiz;
+		nodosActivos = new ArrayList<>();
 		splayTree = new SplayTree<NodoN_ario<T>>();
-		graphic = new JTree(pRaiz.getNodeGraphic());
+		nodosActivos.add(raiz);
+
 	}
 	
 
@@ -23,11 +29,16 @@ public class ArbolN_ario <T> {
 		// TODO Auto-generated constructor stub
 		raiz = null;
 		splayTree = new SplayTree<NodoN_ario<T>>();
-		//graphic = new JTree(pRaiz.getNodeGraphic());
 	}
 
 
+	public ArrayList<NodoN_ario<T>> getNodosActivos() {
+		return nodosActivos;
+	}
+
 	public void agregar(T pElemento, NodoN_ario<T> pPadre, Object pLlave) {
+		System.out.println(pPadre==null);
+
 		if((pElemento == null) || (pPadre == null && raiz != null) || (pLlave == null
 				&& raiz != null)) {
 			return;
@@ -40,15 +51,16 @@ public class ArbolN_ario <T> {
 		}
 
 		//NodoSplay<NodoN_ario<T>> miNodoSplay = new NodoSplay<NodoN_ario<T>>(pNodo);
-		splayTree.agregar(pNodo, pLlave);
+		splayTree.agregar(nodo, pLlave);
 
-		pNodo.setPadre(pPadre);
-		pPadre.addHijos(pNodo);
+		nodo.setPadre(pPadre);
+		pPadre.addHijos(nodo);
 
-		pPadre.getNodeGraphic().add(pNodo.getNodeGraphic());
+		pPadre.getNodeGraphic().add(nodo.getNodeGraphic());
+		this.nodosActivos.add(nodo);
 
 	}
-	
+
 	public void eliminar(NodoN_ario<T> pNodoEliminar, Object pLlave) {
 		boolean aEliminar = splayTree.eliminar(pNodoEliminar, pLlave);
 		if(aEliminar) {
@@ -68,7 +80,8 @@ public class ArbolN_ario <T> {
 
 		}
 	}
-	
+
+
 	public ArrayList<NodoN_ario<T>> buscar(Object pLlave){
 		ArrayList<NodoN_ario<T>> miArray = splayTree.buscar(pLlave);
 		return miArray;
@@ -82,10 +95,6 @@ public class ArbolN_ario <T> {
 	
 	public NodoN_ario<T> getRaiz(){
 		return raiz;
-	}
-
-	public JTree getGraphic(){
-		return graphic;
 	}
 
 
