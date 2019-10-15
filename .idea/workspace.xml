@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="989a363a-194a-4a00-9842-f7afda1e588c" name="Default Changelist" comment="Arregle los problemas de sintaxis, ya parsea bien el json.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/arboles/ArbolN_ario.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/arboles/ArbolN_ario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/arboles/SplayTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/arboles/SplayTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/controlador/Controlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/controlador/Controlador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/AddScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/AddScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/MainScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arboles/ArbolN_ario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arboles/ArbolN_ario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controlador/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlador/Controlador.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -155,7 +153,7 @@
       <workItem from="1570907671271" duration="49000" />
       <workItem from="1570909473540" duration="28380000" />
       <workItem from="1571070160817" duration="29000" />
-      <workItem from="1571073392582" duration="31746000" />
+      <workItem from="1571073392582" duration="32787000" />
     </task>
     <task id="LOCAL-00001" summary="Arregle los problemas de sintaxis, ya parsea bien el json.">
       <created>1570418549368</created>

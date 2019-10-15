@@ -66,10 +66,11 @@ public class MainScreen extends JFrame implements IConstants {
         String errorMessage = "ERROR: ID no existe";
         DefaultTreeModel model = (DefaultTreeModel)treeRepresentation.getModel();
         String ID = JOptionPane.showInputDialog(null, "Ingrese el ID del sensor a eliminar");
-        String nodeName = controller.getNodeByID(ID);
+        NodoN_ario<Sensor> node = controller.getNodeByID(ID);
+        String nodeName = controller.getNodeByID(ID).getElemento().getID();
         System.out.println(nodeName);
 
-        if (nodeName.equals(errorMessage)){
+        if (node == null){
             JOptionPane.showMessageDialog(null, errorMessage, "ERROR",
                     JOptionPane.ERROR_MESSAGE);
         }
@@ -77,7 +78,13 @@ public class MainScreen extends JFrame implements IConstants {
             TreePath path = treeRepresentation.getNextMatch(nodeName, 0, Position.Bias.Forward);
             System.out.println(path == null);
             MutableTreeNode mNode = (MutableTreeNode)path.getLastPathComponent();
+            if (!node.getHijos().isEmpty()){
+                for (NodoN_ario<Sensor> hijo: node.getHijos()){
+                    model.insertNodeInto(hijo.getNodeGraphic(), node.getPadre().getNodeGraphic(), 0);
+                }
+            }
             model.removeNodeFromParent(mNode);
+            tree.eliminar(node, node.getElemento().getPath());
         }
 
 

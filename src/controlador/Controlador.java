@@ -79,14 +79,14 @@ public class Controlador extends Thread implements IConstants{
 		miArbol.agregar(pSensor, pPadre, pLlave);
 	}
 
-	public String getNodeByID(String pID){
+	public NodoN_ario<Sensor> getNodeByID(String pID){
 
 		for (NodoN_ario<Sensor> node: miArbol.getNodosActivos()){
 			if (node.getElemento().getID().equals(pID)){
-				return node.getElemento().toString();
+				return node;
 			}
 		}
-		return "ERROR: ID no existe";
+		return null;
 	}
 
 }
