@@ -10,7 +10,9 @@ public class SensorDisplayScreen extends JFrame implements IPanelDimensions {
 
     public SensorDisplayScreen(ArrayList<InfoDisplayPanel> pMatches ) {
         matches = pMatches;
+
         initComponents();
+
     }
 
     /**
@@ -52,10 +54,11 @@ public class SensorDisplayScreen extends JFrame implements IPanelDimensions {
         for (int index = 1; index < matches.size(); index++){
             System.out.println("...");
             matches.get(index).setBounds(INITIAL_POSITION_IN_X,
-                                        INITIAL_POSITION_IN_Y + (PANEL_HEIGHT + 5),
+                                        INITIAL_POSITION_IN_Y + index*(PANEL_HEIGHT + 5),
                                         PANEL_WIDTH,
                                         PANEL_HEIGHT);
             this.add(matches.get(index));
+            System.out.println(index);
 
         }
 

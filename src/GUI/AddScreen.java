@@ -28,6 +28,7 @@ public class AddScreen extends javax.swing.JFrame {
         controller = pController;
         generateInputsArray();
         this.setResizable(false);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }
 
     @SuppressWarnings("unchecked")
@@ -197,7 +198,7 @@ public class AddScreen extends javax.swing.JFrame {
         NodoN_ario<Sensor> newSensor = new NodoN_ario<>(pSensor);
         NodoN_ario<Sensor> father = getNodeByID(pFatherID);
         newSensor.setPadre(father);
-        tree.agregar(newSensor.getElemento(), newSensor.getPadre(), newSensor.getElemento().getPath());
+        controller.agregar(newSensor.getElemento(), newSensor.getPadre(), newSensor.getElemento().getPath());
 
     }
     private Sensor createSensor(){

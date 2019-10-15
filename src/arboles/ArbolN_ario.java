@@ -32,9 +32,7 @@ public class ArbolN_ario <T> {
 	}
 
 
-	public ArrayList<NodoN_ario<T>> getNodosActivos() {
-		return nodosActivos;
-	}
+
 
 	public void agregar(T pElemento, NodoN_ario<T> pPadre, Object pLlave) {
 		if((pElemento == null) || (pPadre == null && raiz != null) || (pLlave == null
@@ -95,6 +93,8 @@ public class ArbolN_ario <T> {
 		return raiz;
 	}
 
-
+	public ArrayList<NodoN_ario<T>> getNodosActivos() {
+		return nodosActivos;
+	}
 
 }

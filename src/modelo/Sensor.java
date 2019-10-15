@@ -9,7 +9,7 @@ public class Sensor implements Comparable<Sensor>, IConstants{
 	private String canton;
 	private String distrito;
 	private String barrio;
-	private int color;  //Azul: 0, Rojo: 1
+	private int color;
 	private final int cm3Base;
 	private int cm3Actual;
 	
@@ -84,7 +84,7 @@ public class Sensor implements Comparable<Sensor>, IConstants{
 	}
 
 	public String getPath() {
-		return String.format("%1$s/%2$s/%3$s", this.getCanton(), getDistrito(), getBarrio());
+		return String.format("%1$s/%2$s/%3$s", getCanton(), getDistrito(), getBarrio());
 	}
 	
 	public void actualizar() {
@@ -92,6 +92,7 @@ public class Sensor implements Comparable<Sensor>, IConstants{
 		int porcentaje = (random.nextInt(21))-8;
 		int variacion = (this.getCm3Actual()*porcentaje)/MAX_PERCENTAGE;
 		setCm3Actual(variacion);
+
 	}
 
 	@Override
@@ -106,6 +107,13 @@ public class Sensor implements Comparable<Sensor>, IConstants{
 		if (!this.barrio.equals("")){
 			string += "/"+barrio;
 		}
+
+		string += "|"+cm3Actual+"|";
+
+		if (color == 1){
+			string += " (Alerta)";
+		}
+
 		return string;
 	}
 

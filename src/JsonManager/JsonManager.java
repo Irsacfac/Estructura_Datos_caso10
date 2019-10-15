@@ -136,17 +136,21 @@ public class JsonManager {
 	    JSONArray cantonsJSONArray = parseCantons();
         for (int cantonIndex = 0; cantonIndex < cantonsJSONArray.size(); cantonIndex++){
             JSONObject canton = (JSONObject)cantonsJSONArray.get(cantonIndex);
-            if (canton.get("Name").equals(pName)) return (int)(long)canton.get("Consumption");
+
 
             JSONArray districtsJSONArray = (JSONArray)canton.get("Districts");
             for (int districtIndex = 0; districtIndex < districtsJSONArray.size(); districtIndex++){
                 JSONObject district = (JSONObject)districtsJSONArray.get(districtIndex);
-                if (district.get("Name").equals(pName)) return (int)(long)district.get("Consumption");
+
 
                 JSONArray neighborhoodsJSONArray = (JSONArray)district.get("Neighborhhoods");
                 for (int neighborhoodIndex = 0; neighborhoodIndex < neighborhoodsJSONArray.size(); neighborhoodIndex++){
                     JSONObject neighborhood = (JSONObject)neighborhoodsJSONArray.get(neighborhoodIndex);
+                    if (neighborhood.get("Name").equals(pName)) return (int)(long)district.get("Consumption");
                     if (district.get("Name").equals(pName)) return (int)(long)district.get("Consumption");
+                    if (canton.get("Name").equals(pName)) return (int)(long)canton.get("Consumption");
+
+
                 }
             }
         }
